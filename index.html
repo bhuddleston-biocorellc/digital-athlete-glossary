@@ -9,7 +9,7 @@
 </head>
 <body>
   <div class="container mx-auto">
-    <div class="py-16 lg:py-24">
+    <div class="py-4 lg:py-24">
       <h2 class="text-left md:text-center text-3xl px-3 leading-8 tracking-tight text-gray-700 sm:text-4xl">Glossary</h2>
       <p class="mx-auto mt-4 px-3 max-w-3xl text-left md:text-center text-xl text-gray-500">Below are some standard definitions of terms and assumptions made throughout the NFL Digital Athlete application.</p>
       <div x-data="{
@@ -62,7 +62,7 @@
           </div>
         </div>
         <template x-for="item in filteredItems" :key="item.id">
-          <div x-data="{ open: false }" class="rounded-lg bg-white shadow mb-4 px-6">
+          <div x-data="{ open: false }" class="rounded-lg bg-white shadow mb-4 mx-3 px-6">
             <a @click="open = ! open" class="flex w-full items-center justify-between px-6 py-4 text-xl text-gray-600">
               <span x-text="item.id"></span>
               <span x-show="open" aria-hidden="true" class="ml-4">&minus;</span>
