@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>NFL Digital Athlete Glossary</title>
+  <link rel="stylesheet" href="/dist/styles.css">
+</head>
+<body>
+  <div class="container mx-auto">
+    <div class="py-16 lg:py-24">
+      <h2 class="text-left md:text-center text-3xl px-3 leading-8 tracking-tight text-gray-700 sm:text-4xl">Glossary</h2>
+      <p class="mx-auto mt-4 px-3 max-w-3xl text-left md:text-center text-xl text-gray-500">Below are some standard definitions of terms and assumptions made throughout the NFL Digital Athlete application.</p>
+      <div x-data="{
+        search: '',
+        items: [
+          {
+            id: 'Days Missed',
+            'description': 'Calculated days missed using the removal from participation date and return to full participation date.'
+          },
+          {
+            id: 'Lag Date',
+            'description': 'Injury data is not always current due to delays in receiving data from NFL teams. In order to be clear about what data is shown, there are lag date indicators labeled on charts throughout the application. Additionally, trend charts will include a lag date portion that is shaded to indicate the time period in which the lag date is active and only data to the left of the shaded area should be considered accurate. As of the latest calculations, 99\% of team injury data arrives in within 10 days of an injury occurrence. We regularly check this and will update lag date calculation as we see improvements in the speed in which the NFL receives injury data.'
+          },
+          {
+            id: 'Missed Time Injury',
+            'description': 'An injury record that meets any of the following criteria: 1: \'Injury Missed Time\' is set to \'Yes\', and there is at least one row in the Missed Time Grid with a \'Removal Date\' entered and any \'Reason for Removal\'. 2: \'Participation Status at Onset\' is \'Yes, Player was removed and did not return to the session\'. 3: \'Participation Status at Subsequent Session\' is \'Yes, restricted from subsequent session\'.'
+          },
+
+          {
+            id: 'NFL Risk Factor',
+            'description': 'An NFL athlete at the 50th percentile for daily risk of injury across the NFL preseason period has an NFL Risk Factor of 1.0. An athlete with an NFL Risk Factor of 1.5 has a 50\% higher risk of injury than the player with an NFL Risk Factor of 1.0. An athlete with an NFL Risk Factor of 2.0 has double the risk of injury of an athlete with an NFL Risk factor of 1.0. NFL Risk Factors are capped at 5.0, so a risk factor of 5.0 reflects a player who has at least 5 times the risk of a typical player.'
+          },
+          {
+            id: 'Positional Risk Factor',
+            'description': 'An NFL CB at the 50th percentile for daily risk of injury across all cornerbacks during the NFL preseason period has a Positional Risk Factor of 1.0. A CB with a Positional Risk Factor of 1.5 has a 50% higher risk of injury than the CB with a Positional Risk Factor of 1.0. Positional Risk Factors are also capped at 5.0, so a Positional Risk Factor of 5.0 reflects a player who has at least 5 times the risk of a typical player at their position.'
+          },
+          {
+            id: 'Risk Mitigation Model - Preseason Mode',
+            'description': 'The app operates in this mode from the start of training camp through the final week of preseason games. While in this mode the application predicts the athlete\'s probability of injury tomorrow. Due to the consistent loading of players throughout the preseason this target is suitable for managing an athlete’s load.'
+          },
+          {
+            id: 'Risk Mitigation Model - Regular Season Mode',
+            'description': 'In the week prior to the first regular season games, the app will switch to operating in this mode and predictions will be made for an athlete\'s probability of injury for the following six (6) days. This change is necessary due to the cyclical nature of the regular season. In a typical week where a team has a game the following Sunday, this allows users to see an athlete\'s risk through that game.'
+          },
+        ],
+        get filteredItems() {
+          console.log(this.search);
+          return this.items.filter(item => item.id.toLowerCase().includes(this.search.toLowerCase()))
+        }
+      }">
+        <div class="flex flex-row align-center justify-center my-5">
+          <div class="relative mt-1 mx-4 rounded-md shadow-sm w-full md:w-64">
+            <input x-model="search" placeholder="Search..." class="w-full mx-auto appearance-none rounded-md border border-gray-300 bg-white py-3 px-4 text-base text-gray-900 placeholder-gray-500 shadow-sm focus:border-slate-700 focus:placeholder-gray-400 focus:outline-none focus:ring-slate-700">
+            <div class="pointer-events-none absolute inset-y-0 right-0 flex items-center pr-3">
+              <!-- Heroicon name: magnifying-glass -->
+              <svg class="h-5 w-5 text-gray-400" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z"/>
+              </svg>
+            </div>
+          </div>
+        </div>
+        <template x-for="item in filteredItems" :key="item.id">
+          <div x-data="{ open: false }" class="rounded-lg bg-white shadow mb-4 px-6">
+            <a @click="open = ! open" class="flex w-full items-center justify-between px-6 py-4 text-xl text-gray-600">
+              <span x-text="item.id"></span>
+              <span x-show="open" aria-hidden="true" class="ml-4">&minus;</span>
+              <span x-show="!open" aria-hidden="true" class="ml-4">&plus;</span>
+            </a>
+            <div x-show="open" @click.outside="open = false" x-text="item.description" class="px-6 pb-4"></div>
+          </div>
+        </template>
+      </div>
+    </div>
+  </div>
+  <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
+</body>
+</html>
