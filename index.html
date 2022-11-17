@@ -51,7 +51,7 @@
         }
       }">
         <div class="flex flex-row align-center justify-center my-5">
-          <div class="relative mt-1 mx-4 rounded-md shadow-sm w-full md:w-64">
+          <div class="relative mt-1 mx-3 rounded-sm shadow-sm w-full md:w-64">
             <input x-model="search" placeholder="Search..." class="w-full mx-auto appearance-none rounded-md border border-gray-300 bg-white py-3 px-4 text-base text-gray-900 placeholder-gray-500 shadow-sm focus:border-slate-700 focus:placeholder-gray-400 focus:outline-none focus:ring-slate-700">
             <div class="pointer-events-none absolute inset-y-0 right-0 flex items-center pr-3">
               <!-- Heroicon name: magnifying-glass -->
@@ -62,8 +62,8 @@
           </div>
         </div>
         <template x-for="item in filteredItems" :key="item.id">
-          <div x-data="{ open: false }" class="rounded-lg bg-white shadow mb-4 mx-3 px-3">
-            <a @click="open = ! open" class="flex w-full items-center justify-between px-2 py-4 text-xl text-gray-600">
+          <div x-data="{ open: false }" class="rounded-sm bg-white shadow mb-4 mx-3 px-2">
+            <a @click="open = ! open" class="flex w-full items-center justify-between px-2 py-2 text-md text-gray-600">
               <span x-text="item.id"></span>
               <span x-show="open" aria-hidden="true" class="ml-4">&minus;</span>
               <span x-show="!open" aria-hidden="true" class="ml-4">&plus;</span>
