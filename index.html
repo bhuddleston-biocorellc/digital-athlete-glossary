@@ -30,6 +30,10 @@
             description: '',
           },
           {
+            id: 'ACL CI Codes',
+            description: '',
+          },
+          {
             id: 'Adductor Strain CI Codes',
             description: '',
           },
@@ -165,304 +169,8 @@
             <span x-show="!open" aria-hidden="true" class="ml-4">&plus;</span>
           </a>
           <div x-show="open" @click.outside="open=false" x-text="item.description" class="px-2 pt-3 pb-4 bg-gray-50"></div>
-          <!--     VELOCITY BANDS     -->
-          <template x-if="open && item.id === 'Velocity Bands'">
-            <div class="overflow-x-auto bg-gray-50 pb-4">
-              <table class="min-w-full divide-y divide-gray-300 glossary-table">
-                <thead class="bg-gray-50">
-                <tr>
-                  <th scope="col" class="py-3.5 pl-4 pr-3 text-center text-sm font-semibold text-gray-900 sm:pl-6"></th>
-                  <th scope="col" class="px-3 py-3.5 text-center text-sm font-semibold text-gray-900">Max Player Velocity</th>
-                  <th scope="col" class="px-3 py-3.5 text-center text-sm font-semibold text-gray-900" colspan="2">Zone 1 <span class="whitespace-nowrap">(0-15%)</span></th>
-                  <th scope="col" class="px-3 py-3.5 text-center text-sm font-semibold text-gray-900" colspan="2">Zone 2 <span class="whitespace-nowrap">(15-35%)</span></th>
-                  <th scope="col" class="px-3 py-3.5 text-center text-sm font-semibold text-gray-900" colspan="2">Zone 3 <span class="whitespace-nowrap">(35-60%)</span></th>
-                  <th scope="col" class="px-3 py-3.5 text-center text-sm font-semibold text-gray-900" colspan="2">Zone 4 <span class="whitespace-nowrap">(60-85%)</span></th>
-                  <th scope="col" class="px-3 py-3.5 text-center text-sm font-semibold text-gray-900" colspan="2">Zone 5 <span class="whitespace-nowrap">(85%+)</span></th>
-                </tr>
-                <tr>
-                  <th scope="col" class="px-3 py-3.5 text-left text-sm font-semibold text-gray-900">Position</th>
-                  <th scope="col" class="px-3 py-3.5 text-center text-sm font-semibold text-gray-900">Speed (mph)</th>
-                  <th scope="col" class="px-3 py-3.5 text-left text-sm font-semibold text-gray-900">Lower</th>
-                  <th scope="col" class="px-3 py-3.5 text-left text-sm font-semibold text-gray-900">Upper</th>
-                  <th scope="col" class="px-3 py-3.5 text-left text-sm font-semibold text-gray-900">Lower</th>
-                  <th scope="col" class="px-3 py-3.5 text-left text-sm font-semibold text-gray-900">Upper</th>
-                  <th scope="col" class="px-3 py-3.5 text-left text-sm font-semibold text-gray-900">Lower</th>
-                  <th scope="col" class="px-3 py-3.5 text-left text-sm font-semibold text-gray-900">Upper</th>
-                  <th scope="col" class="px-3 py-3.5 text-left text-sm font-semibold text-gray-900">Lower</th>
-                  <th scope="col" class="px-3 py-3.5 text-left text-sm font-semibold text-gray-900">Upper</th>
-                  <th scope="col" class="px-3 py-3.5 text-left text-sm font-semibold text-gray-900">Lower</th>
-                  <th scope="col" class="px-3 py-3.5 text-left text-sm font-semibold text-gray-900">Upper</th>
-                </tr>
-                </thead>
-                <tbody>
-                <tr>
-                  <td class="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-gray-900 sm:pl-6">CB</td>
-                  <td class="whitespace-nowrap px-3 py-4 text-sm text-center text-gray-500">20.5</td>
-                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">0</td>
-                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">3.1</td>
-                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">3.1</td>
-                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">7.2</td>
-                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">7.2</td>
-                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">12.3</td>
-                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">12.3</td>
-                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">17.4</td>
-                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">17.4</td>
-                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500 sm:pr-6"></td>
-                </tr>
-                <tr>
-                  <td class="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-gray-900 sm:pl-6">S</td>
-                  <td class="whitespace-nowrap px-3 py-4 text-sm text-center text-gray-500">20.5</td>
-                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">0</td>
-                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">3.1</td>
-                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">3.1</td>
-                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">7.2</td>
-                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">7.2</td>
-                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">12.3</td>
-                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">12.3</td>
-                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">17.4</td>
-                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">17.4</td>
-                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500 sm:pr-6"></td>
-                </tr>
-                <tr>
-                  <td class="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-gray-900 sm:pl-6">DL</td>
-                  <td class="whitespace-nowrap px-3 py-4 text-sm text-center text-gray-500">16.1</td>
-                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">0</td>
-                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">2.4</td>
-                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">2.4</td>
-                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">5.6</td>
-                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">5.6</td>
-                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">9.7</td>
-                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">9.7</td>
-                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">13.7</td>
-                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">13.7</td>
-                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500 sm:pr-6"></td>
-                </tr>
-                <tr>
-                  <td class="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-gray-900 sm:pl-6">LB</td>
-                  <td class="whitespace-nowrap px-3 py-4 text-sm text-center text-gray-500">19.3</td>
-                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">0</td>
-                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">2.9</td>
-                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">2.9</td>
-                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">6.8</td>
-                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">6.8</td>
-                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">11.6</td>
-                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">11.6</td>
-                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">16.4</td>
-                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">16.4</td>
-                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500 sm:pr-6"></td>
-                </tr>
-                <tr>
-                  <td class="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-gray-900 sm:pl-6">OL</td>
-                  <td class="whitespace-nowrap px-3 py-4 text-sm text-center text-gray-500">14</td>
-                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">0</td>
-                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">2.1</td>
-                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">2.1</td>
-                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">4.9</td>
-                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">4.9</td>
-                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">8.4</td>
-                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">8.4</td>
-                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">11.9</td>
-                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">11.9</td>
-                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500 sm:pr-6"></td>
-                </tr>
-                <tr>
-                  <td class="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-gray-900 sm:pl-6">TE</td>
-                  <td class="whitespace-nowrap px-3 py-4 text-sm text-center text-gray-500">18.5</td>
-                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">0</td>
-                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">2.8</td>
-                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">2.8</td>
-                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">6.5</td>
-                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">6.5</td>
-                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">11.1</td>
-                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">11.1</td>
-                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">15.7</td>
-                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">15.7</td>
-                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500 sm:pr-6"></td>
-                </tr>
-                <tr>
-                  <td class="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-gray-900 sm:pl-6">RB</td>
-                  <td class="whitespace-nowrap px-3 py-4 text-sm text-center text-gray-500">19.8</td>
-                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">0</td>
-                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">3.0</td>
-                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">3.0</td>
-                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">6.9</td>
-                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">6.9</td>
-                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">11.9</td>
-                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">11.9</td>
-                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">16.8</td>
-                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">16.8</td>
-                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500 sm:pr-6"></td>
-                </tr>
-                <tr>
-                  <td class="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-gray-900 sm:pl-6">WR</td>
-                  <td class="whitespace-nowrap px-3 py-4 text-sm text-center text-gray-500">20.2</td>
-                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">0</td>
-                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">3.0</td>
-                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">3.0</td>
-                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">7.1</td>
-                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">7.1</td>
-                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">12.1</td>
-                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">12.1</td>
-                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">17.2</td>
-                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">17.2</td>
-                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500 sm:pr-6"></td>
-                </tr>
-                <tr>
-                  <td class="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-gray-900 sm:pl-6">QB</td>
-                  <td class="whitespace-nowrap px-3 py-4 text-sm text-center text-gray-500">17.7</td>
-                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">0</td>
-                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">2.7</td>
-                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">2.7</td>
-                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">6.2</td>
-                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">6.2</td>
-                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">10.6</td>
-                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">10.6</td>
-                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">15.0</td>
-                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">15.0</td>
-                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500 sm:pr-6"></td>
-                </tr>
-                <tr>
-                  <td class="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-gray-900 sm:pl-6">K</td>
-                  <td class="whitespace-nowrap px-3 py-4 text-sm text-center text-gray-500">15.6</td>
-                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">0</td>
-                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">2.3</td>
-                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">2.3</td>
-                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">5.5</td>
-                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">5.5</td>
-                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">9.4</td>
-                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">9.4</td>
-                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">13.3</td>
-                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">13.3</td>
-                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500 sm:pr-6"></td>
-                </tr>
-                <tr>
-                  <td class="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-gray-900 sm:pl-6">LS</td>
-                  <td class="whitespace-nowrap px-3 py-4 text-sm text-center text-gray-500">17.4</td>
-                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">0</td>
-                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">2.6</td>
-                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">2.6</td>
-                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">6.1</td>
-                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">6.1</td>
-                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">10.4</td>
-                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">10.4</td>
-                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">14.8</td>
-                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">14.8</td>
-                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500 sm:pr-6"></td>
-                </tr>
-                <tr>
-                  <td class="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-gray-900 sm:pl-6">P</td>
-                  <td class="whitespace-nowrap px-3 py-4 text-sm text-center text-gray-500">16.5</td>
-                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">0</td>
-                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">2.5</td>
-                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">2.5</td>
-                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">5.8</td>
-                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">5.8</td>
-                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">9.9</td>
-                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">9.9</td>
-                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">14.0</td>
-                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">14.0</td>
-                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500 sm:pr-6"></td>
-                </tr>
-                </tbody>
-              </table>
-            </div>
-          </template>
-          <!--     CONCUSSION     -->
-          <template x-if="open && item.id === 'Concussion CI Codes'">
-            <div class="overflow-x-auto bg-gray-50 px-4 p-y-4">
-              <p class="my-3">Below is a list of CI Codes that are included in the calculation of Concussion injuries in the NFL Digital Athlete.</p>
-              <table class="min-w-full divide-y divide-gray-300 ci-code-table mb-4">
-                <thead class="bg-gray-50">
-                <tr>
-                  <th scope="col" class="px-3 py-3.5 text-left text-sm font-semibold text-gray-900">CI Code</th>
-                  <th scope="col" class="px-3 py-3.5 text-left text-sm font-semibold text-gray-900" colspan="2">CI Description</th>
-                </tr>
-                </thead>
-                <tbody class="bg-white divide-y divide-gray-300">
-                <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">11000</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Head Concussion</td>
-                </tr>
-                <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">11010</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Head Concussion w/Sensory Loss</td>
-                </tr>
-                <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">11020</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Head Concussion w/Motor Loss</td>
-                </tr>
-                <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">11030</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Head Concussion w/S&M Loss</td>
-                </tr>
-                <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">11100</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Head Concussion 1 Deg</td>
-                </tr>
-                <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">11110</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Head Concussion 1 Deg w/Sensory Loss</td>
-                </tr>
-                <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">11120</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Head Concussion 1 Deg w/Motor Loss</td>
-                </tr>
-                <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">11130</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Head Concussion 1 Deg w/S&M Loss</td>
-                </tr>
-                <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">11200</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Head Concussion 2 Deg</td>
-                </tr>
-                <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">11210</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Head Concussion 2 Deg w/Sensory Loss</td>
-                </tr>
-                <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">11220</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Head Concussion 2 Deg w/Motor Loss</td>
-                </tr>
-                <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">11230</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Head Concussion 2 Deg w/S&M Loss</td>
-                </tr>
-                <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">11300</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Head Concussion 3 Deg</td>
-                </tr>
-                <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">11310</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Head Concussion 3 Deg w/Sensory Loss</td>
-                </tr>
-                <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">11320</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Head Concussion 3 Deg w/Motor Loss</td>
-                </tr>
-                <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">11330</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Head Concussion 3 Deg w/S&M Loss</td>
-                </tr>
-                <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">11400</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Head Concussion Sequela</td>
-                </tr>
-                <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">11401</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Head Concussion Sequela 1 Deg</td>
-                </tr>
-                <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">11402</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Head Concussion Sequela 2 Deg</td>
-                </tr>
-                <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">11403</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Head Concussion Sequela 3 Deg</td>
-                </tr>
-                </tbody>
-              </table>
-            </div>
-          </template>
+
+
           <!--     ACHILLES     -->
           <template x-if="open && item.id === 'Achilles CI Codes'">
             <div class="overflow-x-auto bg-gray-50 px-4 p-y-4">
@@ -507,6 +215,42 @@
               </table>
             </div>
           </template>
+
+          <!--     ACL     -->
+          <template x-if="open && item.id === 'ACL CI Codes'">
+            <div class="overflow-x-auto bg-gray-50 px-4 p-y-4">
+              <p class="my-3">Below is a list of CI Codes that are included in the calculation of ACL injuries in the NFL Digital Athlete.</p>
+              <table class="min-w-full divide-y divide-gray-300 ci-code-table mb-4">
+                <thead class="bg-gray-50">
+                <tr>
+                  <th scope="col" class="px-3 py-3.5 text-left text-sm font-semibold text-gray-900">CI Code</th>
+                  <th scope="col" class="px-3 py-3.5 text-left text-sm font-semibold text-gray-900" colspan="2">CI Description</th>
+                </tr>
+                </thead>
+                <tbody class="bg-white divide-y divide-gray-300">
+                <tr>
+                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">403011</td>
+                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Knee Anterior Cruciate Ligament Tear - Complete</td>
+                </tr>
+                <tr>
+                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">403012</td>
+                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Knee Anterior Cruciate Ligament Tear - Partial</td>
+                </tr>
+                <tr>
+                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">403210</td>
+                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Knee Anterior Cruciate Sprain 2 Deg</td>
+                </tr>
+                <tr>
+                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">403310</td>
+                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Knee Anterior Cruciate Sprain 3 Deg</td>
+                </tr
+                </td>
+                </tbody>
+              </table>
+            </div>
+          </template>
+
+
           <!--     ADDUCTOR STRAIN     -->
           <template x-if="open && item.id === 'Adductor Strain CI Codes'">
             <div class="overflow-x-auto bg-gray-50 px-4 p-y-4">
@@ -707,6 +451,9 @@
               </table>
             </div>
           </template>
+
+
+
           <!--     ANKLE     -->
           <template x-if="open && item.id === 'Ankle CI Codes'">
             <div class="overflow-x-auto bg-gray-50 px-4 p-y-4">
@@ -1371,6 +1118,8 @@
               </table>
             </div>
           </template>
+
+
           <!--     CALF STRAIN     -->
           <template x-if="open && item.id === 'Calf Strain CI Codes'">
             <div class="overflow-x-auto bg-gray-50 px-4 p-y-4">
@@ -1423,6 +1172,106 @@
               </table>
             </div>
           </template>
+
+          <!--     CONCUSSION     -->
+          <template x-if="open && item.id === 'Concussion CI Codes'">
+            <div class="overflow-x-auto bg-gray-50 px-4 p-y-4">
+              <p class="my-3">Below is a list of CI Codes that are included in the calculation of Concussion injuries in the NFL Digital Athlete.</p>
+              <table class="min-w-full divide-y divide-gray-300 ci-code-table mb-4">
+                <thead class="bg-gray-50">
+                <tr>
+                  <th scope="col" class="px-3 py-3.5 text-left text-sm font-semibold text-gray-900">CI Code</th>
+                  <th scope="col" class="px-3 py-3.5 text-left text-sm font-semibold text-gray-900" colspan="2">CI Description</th>
+                </tr>
+                </thead>
+                <tbody class="bg-white divide-y divide-gray-300">
+                <tr>
+                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">11000</td>
+                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Head Concussion</td>
+                </tr>
+                <tr>
+                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">11010</td>
+                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Head Concussion w/Sensory Loss</td>
+                </tr>
+                <tr>
+                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">11020</td>
+                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Head Concussion w/Motor Loss</td>
+                </tr>
+                <tr>
+                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">11030</td>
+                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Head Concussion w/S&M Loss</td>
+                </tr>
+                <tr>
+                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">11100</td>
+                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Head Concussion 1 Deg</td>
+                </tr>
+                <tr>
+                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">11110</td>
+                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Head Concussion 1 Deg w/Sensory Loss</td>
+                </tr>
+                <tr>
+                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">11120</td>
+                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Head Concussion 1 Deg w/Motor Loss</td>
+                </tr>
+                <tr>
+                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">11130</td>
+                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Head Concussion 1 Deg w/S&M Loss</td>
+                </tr>
+                <tr>
+                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">11200</td>
+                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Head Concussion 2 Deg</td>
+                </tr>
+                <tr>
+                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">11210</td>
+                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Head Concussion 2 Deg w/Sensory Loss</td>
+                </tr>
+                <tr>
+                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">11220</td>
+                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Head Concussion 2 Deg w/Motor Loss</td>
+                </tr>
+                <tr>
+                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">11230</td>
+                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Head Concussion 2 Deg w/S&M Loss</td>
+                </tr>
+                <tr>
+                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">11300</td>
+                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Head Concussion 3 Deg</td>
+                </tr>
+                <tr>
+                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">11310</td>
+                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Head Concussion 3 Deg w/Sensory Loss</td>
+                </tr>
+                <tr>
+                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">11320</td>
+                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Head Concussion 3 Deg w/Motor Loss</td>
+                </tr>
+                <tr>
+                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">11330</td>
+                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Head Concussion 3 Deg w/S&M Loss</td>
+                </tr>
+                <tr>
+                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">11400</td>
+                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Head Concussion Sequela</td>
+                </tr>
+                <tr>
+                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">11401</td>
+                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Head Concussion Sequela 1 Deg</td>
+                </tr>
+                <tr>
+                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">11402</td>
+                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Head Concussion Sequela 2 Deg</td>
+                </tr>
+                <tr>
+                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">11403</td>
+                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Head Concussion Sequela 3 Deg</td>
+                </tr>
+                </tbody>
+              </table>
+            </div>
+          </template>
+
+
+
           <!--     FOOT     -->
           <template x-if="open && item.id === 'Foot CI Codes'">
             <div class="overflow-x-auto bg-gray-50 px-4 p-y-4">
@@ -7594,6 +7443,208 @@
                 <tr>
                   <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">135025</td>
                   <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Arm Fracture/Humerus Proximal - Surgical Neck</td>
+                </tr>
+                </tbody>
+              </table>
+            </div>
+          </template>
+          <!--     VELOCITY BANDS     -->
+          <template x-if="open && item.id === 'Velocity Bands'">
+            <div class="overflow-x-auto bg-gray-50 pb-4">
+              <table class="min-w-full divide-y divide-gray-300 glossary-table">
+                <thead class="bg-gray-50">
+                <tr>
+                  <th scope="col" class="py-3.5 pl-4 pr-3 text-center text-sm font-semibold text-gray-900 sm:pl-6"></th>
+                  <th scope="col" class="px-3 py-3.5 text-center text-sm font-semibold text-gray-900">Max Player Velocity</th>
+                  <th scope="col" class="px-3 py-3.5 text-center text-sm font-semibold text-gray-900" colspan="2">Zone 1 <span class="whitespace-nowrap">(0-15%)</span></th>
+                  <th scope="col" class="px-3 py-3.5 text-center text-sm font-semibold text-gray-900" colspan="2">Zone 2 <span class="whitespace-nowrap">(15-35%)</span></th>
+                  <th scope="col" class="px-3 py-3.5 text-center text-sm font-semibold text-gray-900" colspan="2">Zone 3 <span class="whitespace-nowrap">(35-60%)</span></th>
+                  <th scope="col" class="px-3 py-3.5 text-center text-sm font-semibold text-gray-900" colspan="2">Zone 4 <span class="whitespace-nowrap">(60-85%)</span></th>
+                  <th scope="col" class="px-3 py-3.5 text-center text-sm font-semibold text-gray-900" colspan="2">Zone 5 <span class="whitespace-nowrap">(85%+)</span></th>
+                </tr>
+                <tr>
+                  <th scope="col" class="px-3 py-3.5 text-left text-sm font-semibold text-gray-900">Position</th>
+                  <th scope="col" class="px-3 py-3.5 text-center text-sm font-semibold text-gray-900">Speed (mph)</th>
+                  <th scope="col" class="px-3 py-3.5 text-left text-sm font-semibold text-gray-900">Lower</th>
+                  <th scope="col" class="px-3 py-3.5 text-left text-sm font-semibold text-gray-900">Upper</th>
+                  <th scope="col" class="px-3 py-3.5 text-left text-sm font-semibold text-gray-900">Lower</th>
+                  <th scope="col" class="px-3 py-3.5 text-left text-sm font-semibold text-gray-900">Upper</th>
+                  <th scope="col" class="px-3 py-3.5 text-left text-sm font-semibold text-gray-900">Lower</th>
+                  <th scope="col" class="px-3 py-3.5 text-left text-sm font-semibold text-gray-900">Upper</th>
+                  <th scope="col" class="px-3 py-3.5 text-left text-sm font-semibold text-gray-900">Lower</th>
+                  <th scope="col" class="px-3 py-3.5 text-left text-sm font-semibold text-gray-900">Upper</th>
+                  <th scope="col" class="px-3 py-3.5 text-left text-sm font-semibold text-gray-900">Lower</th>
+                  <th scope="col" class="px-3 py-3.5 text-left text-sm font-semibold text-gray-900">Upper</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                  <td class="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-gray-900 sm:pl-6">CB</td>
+                  <td class="whitespace-nowrap px-3 py-4 text-sm text-center text-gray-500">20.5</td>
+                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">0</td>
+                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">3.1</td>
+                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">3.1</td>
+                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">7.2</td>
+                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">7.2</td>
+                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">12.3</td>
+                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">12.3</td>
+                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">17.4</td>
+                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">17.4</td>
+                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500 sm:pr-6"></td>
+                </tr>
+                <tr>
+                  <td class="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-gray-900 sm:pl-6">S</td>
+                  <td class="whitespace-nowrap px-3 py-4 text-sm text-center text-gray-500">20.5</td>
+                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">0</td>
+                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">3.1</td>
+                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">3.1</td>
+                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">7.2</td>
+                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">7.2</td>
+                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">12.3</td>
+                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">12.3</td>
+                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">17.4</td>
+                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">17.4</td>
+                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500 sm:pr-6"></td>
+                </tr>
+                <tr>
+                  <td class="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-gray-900 sm:pl-6">DL</td>
+                  <td class="whitespace-nowrap px-3 py-4 text-sm text-center text-gray-500">16.1</td>
+                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">0</td>
+                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">2.4</td>
+                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">2.4</td>
+                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">5.6</td>
+                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">5.6</td>
+                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">9.7</td>
+                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">9.7</td>
+                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">13.7</td>
+                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">13.7</td>
+                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500 sm:pr-6"></td>
+                </tr>
+                <tr>
+                  <td class="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-gray-900 sm:pl-6">LB</td>
+                  <td class="whitespace-nowrap px-3 py-4 text-sm text-center text-gray-500">19.3</td>
+                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">0</td>
+                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">2.9</td>
+                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">2.9</td>
+                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">6.8</td>
+                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">6.8</td>
+                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">11.6</td>
+                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">11.6</td>
+                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">16.4</td>
+                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">16.4</td>
+                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500 sm:pr-6"></td>
+                </tr>
+                <tr>
+                  <td class="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-gray-900 sm:pl-6">OL</td>
+                  <td class="whitespace-nowrap px-3 py-4 text-sm text-center text-gray-500">14</td>
+                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">0</td>
+                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">2.1</td>
+                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">2.1</td>
+                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">4.9</td>
+                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">4.9</td>
+                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">8.4</td>
+                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">8.4</td>
+                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">11.9</td>
+                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">11.9</td>
+                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500 sm:pr-6"></td>
+                </tr>
+                <tr>
+                  <td class="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-gray-900 sm:pl-6">TE</td>
+                  <td class="whitespace-nowrap px-3 py-4 text-sm text-center text-gray-500">18.5</td>
+                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">0</td>
+                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">2.8</td>
+                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">2.8</td>
+                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">6.5</td>
+                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">6.5</td>
+                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">11.1</td>
+                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">11.1</td>
+                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">15.7</td>
+                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">15.7</td>
+                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500 sm:pr-6"></td>
+                </tr>
+                <tr>
+                  <td class="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-gray-900 sm:pl-6">RB</td>
+                  <td class="whitespace-nowrap px-3 py-4 text-sm text-center text-gray-500">19.8</td>
+                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">0</td>
+                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">3.0</td>
+                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">3.0</td>
+                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">6.9</td>
+                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">6.9</td>
+                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">11.9</td>
+                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">11.9</td>
+                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">16.8</td>
+                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">16.8</td>
+                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500 sm:pr-6"></td>
+                </tr>
+                <tr>
+                  <td class="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-gray-900 sm:pl-6">WR</td>
+                  <td class="whitespace-nowrap px-3 py-4 text-sm text-center text-gray-500">20.2</td>
+                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">0</td>
+                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">3.0</td>
+                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">3.0</td>
+                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">7.1</td>
+                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">7.1</td>
+                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">12.1</td>
+                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">12.1</td>
+                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">17.2</td>
+                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">17.2</td>
+                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500 sm:pr-6"></td>
+                </tr>
+                <tr>
+                  <td class="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-gray-900 sm:pl-6">QB</td>
+                  <td class="whitespace-nowrap px-3 py-4 text-sm text-center text-gray-500">17.7</td>
+                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">0</td>
+                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">2.7</td>
+                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">2.7</td>
+                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">6.2</td>
+                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">6.2</td>
+                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">10.6</td>
+                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">10.6</td>
+                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">15.0</td>
+                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">15.0</td>
+                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500 sm:pr-6"></td>
+                </tr>
+                <tr>
+                  <td class="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-gray-900 sm:pl-6">K</td>
+                  <td class="whitespace-nowrap px-3 py-4 text-sm text-center text-gray-500">15.6</td>
+                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">0</td>
+                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">2.3</td>
+                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">2.3</td>
+                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">5.5</td>
+                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">5.5</td>
+                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">9.4</td>
+                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">9.4</td>
+                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">13.3</td>
+                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">13.3</td>
+                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500 sm:pr-6"></td>
+                </tr>
+                <tr>
+                  <td class="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-gray-900 sm:pl-6">LS</td>
+                  <td class="whitespace-nowrap px-3 py-4 text-sm text-center text-gray-500">17.4</td>
+                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">0</td>
+                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">2.6</td>
+                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">2.6</td>
+                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">6.1</td>
+                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">6.1</td>
+                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">10.4</td>
+                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">10.4</td>
+                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">14.8</td>
+                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">14.8</td>
+                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500 sm:pr-6"></td>
+                </tr>
+                <tr>
+                  <td class="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-gray-900 sm:pl-6">P</td>
+                  <td class="whitespace-nowrap px-3 py-4 text-sm text-center text-gray-500">16.5</td>
+                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">0</td>
+                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">2.5</td>
+                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">2.5</td>
+                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">5.8</td>
+                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">5.8</td>
+                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">9.9</td>
+                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">9.9</td>
+                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">14.0</td>
+                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">14.0</td>
+                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500 sm:pr-6"></td>
                 </tr>
                 </tbody>
               </table>
