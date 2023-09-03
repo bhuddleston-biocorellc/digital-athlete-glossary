@@ -1,0 +1,14 @@
+{
+  "redirects": [
+    {
+      "source": "/docs/NFLDigitalAthleteRiskModelingGuide.pdf",
+      "destination": "/docs/TeamsAppUserGuide2023Reg.pdf",
+      "permanent": true
+    },
+    {
+      "source": "/docs/TeamsAppUserGuide.pdf",
+      "destination": "/docs/TeamsAppUserGuide2023Reg.pdf",
+      "permanent": true
+    }
+  ]
+}
