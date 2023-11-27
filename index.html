@@ -26,92 +26,252 @@
         search: '',
         items: [
           {
+            id: '4-Day Average Accel Distance',
+            'description': 'Average distance traveled while accelerating between 3.5 and 5.5 m/s^2 calculated over the last four days in yards',
+          },
+          {
+            id: '4-Day Average Contact',
+            'description': 'The average contact load over the last four days',
+          },
+          {
+            id: '4-Day Sprint Distance',
+            'description': 'Average distance traveled while sprinting calculated over the last four days in yards',
+          },
+          {
+            id: '4-Day Total Distance',
+            'description': 'Total distance traveled over the prior four days in yards'
+          },
+          {
+            id: '21-Day Max Speed Sum',
+            'description': 'Sum of each daily max speed over 21 day window',
+          },
+          {
+            id: '21-Day Total Distance',
+            'description': 'Total distance traveled over the prior 21 days in yards',
+          },
+          {
+            id: '21-Day Total Duration',
+            'description': 'Total duration of tracking sessions over 21 day window',
+          },
+          {
+            id: '21-Day Z5 Deceleration Distance',
+            'description': 'Total Z5 deceleration distance over 21 day window',
+          },
+          {
+            id: '21-Day Total Contact(11 on 11)',
+            'description': 'Total contact during 11 on 11 over 21 day window',
+          },
+          {
+            id: '7:28 A:C Contact',
+            'description': 'The ratio of the average daily contact over previous 7 days over the average daily contact over previous 28 days',
+          },
+          {
+            id: '7:28 A:C Distance',
+            'description': 'The ratio of the average daily distance over last 7 days over average daily distance over last 28 days',
+          },
+          {
+            id: '7:28 A:C Distance Under Contact',
+            'description': 'The ratio of the average daily contact over previous 7 days over the average daily contact over previous 28 days',
+          },
+          {
+            id: '7:28 A:C Duration',
+            'description': 'The ratio of the average daily duration over the last 7 days over the average daily duration over the last 28 days',
+          },
+          {
+            id: '7:28 A:C High-Speed Distance',
+            'description': 'The ratio of the average daily high speed distance over last 7 days over average daily high speed distance over last 28 days',
+          },
+          {
+            id: '21-Day Total High-Speed Distance',
+            'description': 'Total high-speed distance in yards over the last 21 days',
+          },
+          {
+            id: '21-Day Total Sprint Distance',
+            'description': 'Total sprint distance in yards over the last 21 days',
+          },
+          {
+            id: 'A:C Distance',
+            'description': 'The ratio of today\'s load to the players average daily load',
+          },
+          {
+            id: 'Acceleration Distance',
+            'description': 'Distance traveled while accelerating above 3.5 m/s^2 in yards',
+          },
+          {
+            id: 'Acceleration Efforts',
+            'description': 'Number of times a player accelerates above 3.5 m/s^2 and maintains that acceleration for 0.3 s',
+          },
+          {
             id: 'Achilles CI Codes',
-            description: '',
+            'description': '',
           },
           {
             id: 'ACL CI Codes',
-            description: '',
+            'description': '',
           },
           {
             id: 'Adductor Strain CI Codes',
-            description: '',
+            'description': '',
           },
           {
             id: 'Ankle CI Codes',
-            description: '',
+            'description': '',
+          },
+          {
+            id: 'Average Distance',
+            'description': 'Exponentially weighted moving average distance traveled in yards',
+          },
+          {
+            id: 'Average Sprint Distance',
+            'description': 'Exponentially weighted moving average distance traveled while sprinting in yards',
+          },
+          {
+            id: 'Average Sprint Efforts',
+            'description': 'Exponentially weighted moving average sprint efforts',
           },
           {
             id: 'Calf Strain CI Codes',
-            description: '',
+            'description': '',
           },
           {
             id: 'Concussion CI Codes',
-            description: '',
+            'description': '',
+          },
+          {
+            id: 'Contact',
+            'description': 'Total contact load during tracking sessions',
+          },
+          {
+            id: 'Contact(11 on 11)',
+            'description': 'Contact load from 11 on 11 periods',
           },
           {
             id: 'Days Missed',
             'description': 'Calculated days missed using the removal from participation date and return to full participation date.'
           },
           {
+            id: 'Days Participated',
+            'description': 'The cumulative number of days of participation in a row',
+          },
+          {
+            id: 'Days Since Off',
+            'description': 'The cumulative number of days of participation in a row',
+          },
+          {
+            id: 'Deceleration Distance',
+            'description': 'Distance traveled while decelerating below 3.5 m/s^2 in yards',
+          },
+          {
+            id: 'Deceleration Efforts',
+            'description': 'Number of times a player decelerates above 3.5 m/s^2 and maintains that acceleration for 0.3 s',
+          },
+          {
+            id: 'Density',
+            'description': 'Density of activity, distance over duration in yards per minute',
+          },
+          {
+            id: 'Distance',
+            'description': 'Total distance traveled in yards'
+          },
+          {
+            id: 'Distance under Contact',
+            'description': 'Distance traveled while under contact in yards',
+          },
+          {
+            id: 'Distance under Contact(11 on 11)',
+            'description': 'Distance traveled during 11 on 11 periods while under contact in yards',
+          },
+          {
+            id: 'Duration',
+            'description': 'Total duration of activity in minutes',
+          },
+          {
             id: 'Efforts',
-            description: 'The number of times a player reaches a new zone (velocity band) and holds that speed for at least 1/2 second.',
+            'description': 'The number of times a player reaches a new zone (velocity band) and holds that speed for at least 1/2 second.',
           },
           {
             id: 'Foot CI Codes',
-            description: '',
+            'description': '',
           },
           {
             id: 'Hamstring CI Codes',
-            description: '',
+            'description': '',
+          },
+          {
+            id: 'High-Speed Distance',
+            'description': 'Total distance traveled at high speed in yards',
           },
           {
             id: 'In-Play',
-            description: 'The time from NGS startEventTime to endPlayTime (usually corresponds to huddle start to end of play. If there is no huddle, then a startEventTime is selected prior to snap)',
+            'description': 'The time from NGS startEventTime to endPlayTime (usually corresponds to huddle start to end of play. If there is no huddle, then a startEventTime is selected prior to snap)',
           },
           {
             id: 'Intensity',
-            description: 'The number of times a player reaches a new zone (velocity band) and holds that speed for at least 1/2 second.',
+            'description': 'The number of times a player reaches a new zone (velocity band) and holds that speed for at least 1/2 second.',
           },
           {
             id: 'Knee CI Codes',
-            description: '',
+            'description': '',
           },
           {
             id: 'Lag Date',
             'description': 'Injury data is not always current due to delays in receiving data from NFL teams. In order to be clear about what data is shown, there are lag date indicators labeled on charts throughout the application. Additionally, trend charts will include a lag date portion that is shaded to indicate the time period in which the lag date is active and only data to the left of the shaded area should be considered accurate. As of the latest calculations, 90\% of team injury data arrives in within 10 days of an injury occurrence. We regularly check this and will update lag date calculation as we see improvements in the speed in which the NFL receives injury data from teams.'
           },
           {
+            id: 'Lateral Accel Efforts',
+            'description': 'Number of times a player accelerates to change the direction above 3.5 m/s^2 and maintains that acceleration for 0.3 s. This is the component of the total acceleration used to change directions and not change speed',
+          },
+          {
+            id: 'Lateral Accel Distance',
+            'description': 'Distance traveled while a player accelerates to change direction above 3.5 m/s^2. This is the component of total acceleration used to change directions and not change speed',
+          },
+          {
             id: 'LEX Sprain CI Codes',
-            description: '',
+            'description': '',
           },
           {
             id: 'LEX Strain CI Codes',
-            description: '',
+            'description': '',
+          },
+          {
+            id: 'Max Speed',
+            'description': 'High speed for player in miles per hour',
           },
           {
             id: 'Missed Time Injury',
-            description: 'An injury for which the athlete was recorded as \'Out\' or \'Limited\' due to that injury in at least one subsequent session.',
+            'description': 'An injury for which the athlete was recorded as \'Out\' or \'Limited\' due to that injury in at least one subsequent session.',
           },
           {
             id: 'Neck CI Codes',
-            description: '',
+            'description': '',
           },
           {
-            id: 'NFL Risk Factor',
+            id: 'NFL Risk Factor (NFL RF)',
             'description': 'An NFL athlete at the 50th percentile for daily risk of injury across the NFL preseason period has an NFL Risk Factor of 1.0. An athlete with an NFL Risk Factor of 1.5 has a 50\% higher risk of injury than the player with an NFL Risk Factor of 1.0. An athlete with an NFL Risk Factor of 2.0 has double the risk of injury of an athlete with an NFL Risk factor of 1.0. NFL Risk Factors are capped at 5.0, so a risk factor of 5.0 reflects a player who has at least 5 times the risk of a typical player.'
           },
           {
-            id: 'On-Field',
-            description: 'In play and out of play but while still on the field of play.',
+            id: 'NFL Risk Percentile',
+            'description': 'Risk percentile for player compared to the league (NFL RP)',
           },
           {
-            id: 'Positional Risk Factor',
+            id: 'On-Field',
+            'description': 'In play and out of play but while still on the field of play.',
+          },
+          {
+            id: 'Position Group',
+            'description': 'Player position group',
+          },
+          {
+            id: 'Positional Risk Factor (PRF)',
             'description': 'An NFL CB at the 50th percentile for daily risk of injury across all cornerbacks during the NFL preseason period has a Positional Risk Factor of 1.0. A CB with a Positional Risk Factor of 1.5 has a 50% higher risk of injury than the CB with a Positional Risk Factor of 1.0. Positional Risk Factors are also capped at 5.0, so a Positional Risk Factor of 5.0 reflects a player who has at least 5 times the risk of a typical player at their position.'
           },
           {
+            id: 'Position Risk Percentile (PRP)',
+            'description': 'Probability of injury compared to player position normalized (PRF)',
+          },
+          {
             id: 'Quad Strain CI Codes',
-            description: '',
+            'description': '',
           },
           {
             id: 'Risk Mitigation Model - Preseason Mode',
@@ -123,15 +283,47 @@
           },
           {
             id: 'Shoulder CI Codes',
-            description: '',
+            'description': '',
+          },
+          {
+            id: 'Sprint Distance',
+            'description': 'Total distance traveled while sprinting in yards',
+          },
+          {
+            id: 'Sprint Efforts',
+            'description': 'Number of sprint efforts for player',
           },
           {
             id: 'Sustained Speed',
-            description: 'Max sustained speed calculations are made using a half second dwell time',
+            'description': 'Max sustained speed calculations are made using a half second dwell time',
+          },
+          {
+            id: 'Time in Contact',
+            'description': 'Total time spent while under contact in seconds',
+          },
+          {
+            id: 'Time in Contact(11 on 11)',
+            'description': 'Total time spent on 11 on 11 periods while under contact in seconds',
           },
           {
             id: 'Velocity Bands',
-            description: '',
+            'description': '',
+          },
+          {
+            id: 'Z4 Acceleration Distance',
+            'description': 'Distance traveled while accelerating between 3.5 and 5.5 m/s^2 in yards',
+          },
+          {
+            id: 'Z4 Deceleration Distance',
+            'description': 'Distance traveled while decelerating between 3.5 and 5.5 m/s^2 in yards',
+          },
+          {
+            id: 'Z5 Acceleration Distance',
+            'description': 'Distance traveled while accelerating above 5.5 m/s^2 in yards',
+          },
+          {
+            id: 'Z5 Deceleration Distance',
+            'description': 'Distance traveled while decelerating over 5.5 m/s^2 in yards',
           },
         ],
         get filteredItems() {
