@@ -26,92 +26,252 @@
         search: '',
         items: [
           {
+            id: '4-Day Average Accel Distance',
+            'description': 'Average distance traveled while accelerating between 3.5 and 5.5 m/s^2 calculated over the last four days in yards',
+          },
+          {
+            id: '4-Day Average Contact',
+            'description': 'The average contact load over the last four days',
+          },
+          {
+            id: '4-Day Sprint Distance',
+            'description': 'Average distance traveled while sprinting calculated over the last four days in yards',
+          },
+          {
+            id: '4-Day Total Distance',
+            'description': 'Total distance traveled over the prior four days in yards'
+          },
+          {
+            id: '21-Day Max Speed Sum',
+            'description': 'Sum of each daily max speed over 21 day window',
+          },
+          {
+            id: '21-Day Total Distance',
+            'description': 'Total distance traveled over the prior 21 days in yards',
+          },
+          {
+            id: '21-Day Total Duration',
+            'description': 'Total duration of tracking sessions over 21 day window',
+          },
+          {
+            id: '21-Day Z5 Deceleration Distance',
+            'description': 'Total Z5 deceleration distance over 21 day window',
+          },
+          {
+            id: '21-Day Total Contact(11 on 11)',
+            'description': 'Total contact during 11 on 11 over 21 day window',
+          },
+          {
+            id: '7:28 A:C Contact',
+            'description': 'The ratio of the average daily contact over previous 7 days over the average daily contact over previous 28 days',
+          },
+          {
+            id: '7:28 A:C Distance',
+            'description': 'The ratio of the average daily distance over last 7 days over average daily distance over last 28 days',
+          },
+          {
+            id: '7:28 A:C Distance Under Contact',
+            'description': 'The ratio of the average daily contact over previous 7 days over the average daily contact over previous 28 days',
+          },
+          {
+            id: '7:28 A:C Duration',
+            'description': 'The ratio of the average daily duration over the last 7 days over the average daily duration over the last 28 days',
+          },
+          {
+            id: '7:28 A:C High-Speed Distance',
+            'description': 'The ratio of the average daily high speed distance over last 7 days over average daily high speed distance over last 28 days',
+          },
+          {
+            id: '21-Day Total High-Speed Distance',
+            'description': 'Total high-speed distance in yards over the last 21 days',
+          },
+          {
+            id: '21-Day Total Sprint Distance',
+            'description': 'Total sprint distance in yards over the last 21 days',
+          },
+          {
+            id: 'A:C Distance',
+            'description': 'The ratio of today\'s load to the players average daily load',
+          },
+          {
+            id: 'Acceleration Distance',
+            'description': 'Distance traveled while accelerating above 3.5 m/s^2 in yards',
+          },
+          {
+            id: 'Acceleration Efforts',
+            'description': 'Number of times a player accelerates above 3.5 m/s^2 and maintains that acceleration for 0.3 s',
+          },
+          {
             id: 'Achilles CI Codes',
-            description: '',
+            'description': '',
           },
           {
             id: 'ACL CI Codes',
-            description: '',
+            'description': '',
           },
           {
             id: 'Adductor Strain CI Codes',
-            description: '',
+            'description': '',
           },
           {
             id: 'Ankle CI Codes',
-            description: '',
+            'description': '',
+          },
+          {
+            id: 'Average Distance',
+            'description': 'Exponentially weighted moving average distance traveled in yards',
+          },
+          {
+            id: 'Average Sprint Distance',
+            'description': 'Exponentially weighted moving average distance traveled while sprinting in yards',
+          },
+          {
+            id: 'Average Sprint Efforts',
+            'description': 'Exponentially weighted moving average sprint efforts',
           },
           {
             id: 'Calf Strain CI Codes',
-            description: '',
+            'description': '',
           },
           {
             id: 'Concussion CI Codes',
-            description: '',
+            'description': '',
+          },
+          {
+            id: 'Contact',
+            'description': 'Total contact load during tracking sessions',
+          },
+          {
+            id: 'Contact(11 on 11)',
+            'description': 'Contact load from 11 on 11 periods',
           },
           {
             id: 'Days Missed',
             'description': 'Calculated days missed using the removal from participation date and return to full participation date.'
           },
           {
+            id: 'Days Participated',
+            'description': 'The cumulative number of days of participation in a row',
+          },
+          {
+            id: 'Days Since Off',
+            'description': 'The cumulative number of days of participation in a row',
+          },
+          {
+            id: 'Deceleration Distance',
+            'description': 'Distance traveled while decelerating below 3.5 m/s^2 in yards',
+          },
+          {
+            id: 'Deceleration Efforts',
+            'description': 'Number of times a player decelerates above 3.5 m/s^2 and maintains that acceleration for 0.3 s',
+          },
+          {
+            id: 'Density',
+            'description': 'Density of activity, distance over duration in yards per minute',
+          },
+          {
+            id: 'Distance',
+            'description': 'Total distance traveled in yards'
+          },
+          {
+            id: 'Distance under Contact',
+            'description': 'Distance traveled while under contact in yards',
+          },
+          {
+            id: 'Distance under Contact(11 on 11)',
+            'description': 'Distance traveled during 11 on 11 periods while under contact in yards',
+          },
+          {
+            id: 'Duration',
+            'description': 'Total duration of activity in minutes',
+          },
+          {
             id: 'Efforts',
-            description: 'The number of times a player reaches a new zone (velocity band) and holds that speed for at least 1/2 second.',
+            'description': 'The number of times a player reaches a new zone (velocity band) and holds that speed for at least 1/2 second.',
           },
           {
             id: 'Foot CI Codes',
-            description: '',
+            'description': '',
           },
           {
             id: 'Hamstring CI Codes',
-            description: '',
+            'description': '',
+          },
+          {
+            id: 'High-Speed Distance',
+            'description': 'Total distance traveled at high speed in yards',
           },
           {
             id: 'In-Play',
-            description: 'The time from NGS startEventTime to endPlayTime (usually corresponds to huddle start to end of play. If there is no huddle, then a startEventTime is selected prior to snap)',
+            'description': 'The time from NGS startEventTime to endPlayTime (usually corresponds to huddle start to end of play. If there is no huddle, then a startEventTime is selected prior to snap)',
           },
           {
             id: 'Intensity',
-            description: 'The number of times a player reaches a new zone (velocity band) and holds that speed for at least 1/2 second.',
+            'description': 'The number of times a player reaches a new zone (velocity band) and holds that speed for at least 1/2 second.',
           },
           {
             id: 'Knee CI Codes',
-            description: '',
+            'description': '',
           },
           {
             id: 'Lag Date',
             'description': 'Injury data is not always current due to delays in receiving data from NFL teams. In order to be clear about what data is shown, there are lag date indicators labeled on charts throughout the application. Additionally, trend charts will include a lag date portion that is shaded to indicate the time period in which the lag date is active and only data to the left of the shaded area should be considered accurate. As of the latest calculations, 90\% of team injury data arrives in within 10 days of an injury occurrence. We regularly check this and will update lag date calculation as we see improvements in the speed in which the NFL receives injury data from teams.'
           },
           {
+            id: 'Lateral Accel Efforts',
+            'description': 'Number of times a player accelerates to change the direction above 3.5 m/s^2 and maintains that acceleration for 0.3 s. This is the component of the total acceleration used to change directions and not change speed',
+          },
+          {
+            id: 'Lateral Accel Distance',
+            'description': 'Distance traveled while a player accelerates to change direction above 3.5 m/s^2. This is the component of total acceleration used to change directions and not change speed',
+          },
+          {
             id: 'LEX Sprain CI Codes',
-            description: '',
+            'description': '',
           },
           {
             id: 'LEX Strain CI Codes',
-            description: '',
+            'description': '',
+          },
+          {
+            id: 'Max Speed',
+            'description': 'High speed for player in miles per hour',
           },
           {
             id: 'Missed Time Injury',
-            description: 'An injury for which the athlete was recorded as \'Out\' or \'Limited\' due to that injury in at least one subsequent session.',
+            'description': 'An injury for which the athlete was recorded as \'Out\' or \'Limited\' due to that injury in at least one subsequent session.',
           },
           {
             id: 'Neck CI Codes',
-            description: '',
+            'description': '',
           },
           {
-            id: 'NFL Risk Factor',
+            id: 'NFL Risk Factor (NFL RF)',
             'description': 'An NFL athlete at the 50th percentile for daily risk of injury across the NFL preseason period has an NFL Risk Factor of 1.0. An athlete with an NFL Risk Factor of 1.5 has a 50\% higher risk of injury than the player with an NFL Risk Factor of 1.0. An athlete with an NFL Risk Factor of 2.0 has double the risk of injury of an athlete with an NFL Risk factor of 1.0. NFL Risk Factors are capped at 5.0, so a risk factor of 5.0 reflects a player who has at least 5 times the risk of a typical player.'
           },
           {
-            id: 'On-Field',
-            description: 'In play and out of play but while still on the field of play.',
+            id: 'NFL Risk Percentile',
+            'description': 'Risk percentile for player compared to the league (NFL RP)',
           },
           {
-            id: 'Positional Risk Factor',
+            id: 'On-Field',
+            'description': 'In play and out of play but while still on the field of play.',
+          },
+          {
+            id: 'Position Group',
+            'description': 'Player position group',
+          },
+          {
+            id: 'Positional Risk Factor (PRF)',
             'description': 'An NFL CB at the 50th percentile for daily risk of injury across all cornerbacks during the NFL preseason period has a Positional Risk Factor of 1.0. A CB with a Positional Risk Factor of 1.5 has a 50% higher risk of injury than the CB with a Positional Risk Factor of 1.0. Positional Risk Factors are also capped at 5.0, so a Positional Risk Factor of 5.0 reflects a player who has at least 5 times the risk of a typical player at their position.'
           },
           {
+            id: 'Position Risk Percentile (PRP)',
+            'description': 'Probability of injury compared to player position normalized (PRF)',
+          },
+          {
             id: 'Quad Strain CI Codes',
-            description: '',
+            'description': '',
           },
           {
             id: 'Risk Mitigation Model - Preseason Mode',
@@ -119,19 +279,51 @@
           },
           {
             id: 'Risk Mitigation Model - Regular Season Mode',
-            'description': 'In the week prior to the first regular season games, the app will switch to operating in this mode and predictions will be made for an athlete\'s probability of injury for the following six (6) days. This change is necessary due to the cyclical nature of the regular season. In a typical week where a team has a game the following Sunday, this allows users to see an athlete\'s risk through that game.'
+            'description': 'In the week prior to the first regular season games, the app will switch to operating in this mode and predictions will be made for an athlete\'s probability of injury for the following seven (7) days. This change is necessary due to the cyclical nature of the regular season. In a typical week where a team has a game the following Sunday, this allows users to see an athlete\'s risk through that game.'
           },
           {
             id: 'Shoulder CI Codes',
-            description: '',
+            'description': '',
+          },
+          {
+            id: 'Sprint Distance',
+            'description': 'Total distance traveled while sprinting in yards',
+          },
+          {
+            id: 'Sprint Efforts',
+            'description': 'Number of sprint efforts for player',
           },
           {
             id: 'Sustained Speed',
-            description: 'Max sustained speed calculations are made using a half second dwell time',
+            'description': 'Max sustained speed calculations are made using a half second dwell time',
+          },
+          {
+            id: 'Time in Contact',
+            'description': 'Total time spent while under contact in seconds',
+          },
+          {
+            id: 'Time in Contact(11 on 11)',
+            'description': 'Total time spent on 11 on 11 periods while under contact in seconds',
           },
           {
             id: 'Velocity Bands',
-            description: '',
+            'description': '',
+          },
+          {
+            id: 'Z4 Acceleration Distance',
+            'description': 'Distance traveled while accelerating between 3.5 and 5.5 m/s^2 in yards',
+          },
+          {
+            id: 'Z4 Deceleration Distance',
+            'description': 'Distance traveled while decelerating between 3.5 and 5.5 m/s^2 in yards',
+          },
+          {
+            id: 'Z5 Acceleration Distance',
+            'description': 'Distance traveled while accelerating above 5.5 m/s^2 in yards',
+          },
+          {
+            id: 'Z5 Deceleration Distance',
+            'description': 'Distance traveled while decelerating over 5.5 m/s^2 in yards',
           },
         ],
         get filteredItems() {
@@ -6422,948 +6614,276 @@
                 </thead>
                 <tbody class="bg-white divide-y divide-gray-300">
                 <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">100100</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder Abrasion</td>
+                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">113150</td>
+                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Clavicle A-C Sprain Type 1 (1 Deg)</td>
                 </tr>
                 <tr>
                   <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">100200</td>
                   <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder Contusion</td>
                 </tr>
                 <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">100201</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder Anterior Contusion</td>
-                </tr>
-                <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">100202</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder Posterior Contusion</td>
-                </tr>
-                <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">100203</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder Rotator Cuff Contusion</td>
-                </tr>
-                <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">100210</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder Subacromial Contusion</td>
-                </tr>
-                <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">100212</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder Infraspinatus Contusion</td>
-                </tr>
-                <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">100220</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder Deltoid Contusion</td>
-                </tr>
-                <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">100221</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder Deltoid/Anterior Contusion</td>
-                </tr>
-                <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">100222</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder Middle Deltoid Contusion</td>
-                </tr>
-                <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">100223</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder Posterior Deltoid Contusion</td>
-                </tr>
-                <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">100240</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder Scapular Contusion</td>
-                </tr>
-                <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">100241</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder Scapular Spine Contusion</td>
-                </tr>
-                <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">100243</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder Supraspinatus Contusion</td>
-                </tr>
-                <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">100250</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder Teres Minor Contusion</td>
-                </tr>
-                <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">100260</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder Long Head Biceps Contusion</td>
-                </tr>
-                <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">100270</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder Serratus Anterior Contusion</td>
-                </tr>
-                <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">100280</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder Trapezius Contusion</td>
-                </tr>
-                <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">100290</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder Pectoralis Major Tendon Contusion</td>
-                </tr>
-                <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">100300</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder Puncture Wound</td>
-                </tr>
-                <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">100400</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder Laceration</td>
-                </tr>
-                <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">100500</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder Bursitis</td>
-                </tr>
-                <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">100510</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder Subacromial Bursitis</td>
-                </tr>
-                <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">100520</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder Subdeltoid Bursitis</td>
-                </tr>
-                <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">100600</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder Acute Tendinitis</td>
-                </tr>
-                <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">100610</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder Rotator Cuff Tendinitis/Acute</td>
-                </tr>
-                <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">100611</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder Supraspinatus Tendinitis/Acute</td>
-                </tr>
-                <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">100612</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder Infraspinatus Tendinitis/Acute</td>
-                </tr>
-                <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">100613</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder Teres Minor Tendinitis/Acute</td>
-                </tr>
-                <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">100614</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder Subscapularis Tendinitis/Acute</td>
-                </tr>
-                <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">100660</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder Biceps Tendinitis/Acute</td>
-                </tr>
-                <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">100661</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder Biceps Tendinitis/Long Head /Acute</td>
-                </tr>
-                <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">100662</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder Biceps Tendinitis/Short Head /Acute</td>
-                </tr>
-                <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">100700</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder Inflammation Synovitis-Capsulitis/Acute</td>
-                </tr>
-                <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">100800</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder Vascular Trauma</td>
-                </tr>
-                <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">100810</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder Thoracic Outlet Syndrome</td>
-                </tr>
-                <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">100811</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder Paget-Schroetter Syndrome</td>
-                </tr>
-                <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">100900</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder Muscle Spasms</td>
-                </tr>
-                <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">100910</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder Deltoid Muscle Spasm</td>
-                </tr>
-                <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">100911</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder Deltoid/Anterior Spasm</td>
-                </tr>
-                <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">100912</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder Middle Deltoid Spasm</td>
-                </tr>
-                <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">100913</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder Posterior Deltoid Spasm</td>
-                </tr>
-                <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">100980</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder Trapezius Spasm</td>
-                </tr>
-                <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">101010</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder Axillary Nerve Compression</td>
-                </tr>
-                <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">101500</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder Nerve Contusion</td>
-                </tr>
-                <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">101510</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder Nerve Contusion w/Sensory Loss</td>
-                </tr>
-                <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">101520</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder Nerve Contusion w/Motor Loss</td>
-                </tr>
-                <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">101530</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder Nerve Contusion w/S&M Loss</td>
-                </tr>
-                <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">101600</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder Nerve Disorder</td>
-                </tr>
-                <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">101610</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder Nerve Disorder w/Sensory Loss</td>
-                </tr>
-                <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">101620</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder Nerve Disorder w/Motor Loss</td>
-                </tr>
-                <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">101630</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder Nerve Disorder w/S&M Loss</td>
-                </tr>
-                <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">101641</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder Ganglion Cyst</td>
-                </tr>
-                <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">101800</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder Nerve Laceration</td>
+                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">113250</td>
+                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Clavicle A-C Sprain Type 2 (2 Deg)</td>
                 </tr>
                 <tr>
                   <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">103000</td>
                   <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder Sprain (non-specific)</td>
                 </tr>
                 <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">103010</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder Anterior Capsule Sprain</td>
+                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">113350</td>
+                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Clavicle A-C Sprain Type 3 (3 Deg)</td>
                 </tr>
                 <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">103020</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder Posterior Capsule Sprain</td>
-                </tr>
-                <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">103100</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder Sprain 1 Deg (non-specific)</td>
-                </tr>
-                <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">103110</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder Anterior Capsule Sprain 1 Deg</td>
-                </tr>
-                <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">103120</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder Posterior Capsule Sprain 1 Deg</td>
-                </tr>
-                <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">103200</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder Sprain 2 Deg (non-specific)</td>
-                </tr>
-                <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">103210</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder Anterior Capsule Sprain 2 Deg</td>
-                </tr>
-                <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">103220</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder Posterior Capsule Sprain 2 Deg</td>
-                </tr>
-                <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">103300</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder Sprain 3 Deg (non-specific)</td>
-                </tr>
-                <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">103310</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder Anterior Capsule Sprain 3 Deg</td>
-                </tr>
-                <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">103320</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder Posterior Capsule Sprain 3 Deg</td>
-                </tr>
-                <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">103400</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder G-H Subluxation/Acute</td>
-                </tr>
-                <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">103410</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder G-H Anterior Subluxation/Acute</td>
-                </tr>
-                <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">103420</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder G-H Posterior Subluxation/Acute</td>
-                </tr>
-                <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">103430</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder G-H Inferior Subluxation/Acute</td>
-                </tr>
-                <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">103440</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder G-H Subluxation/Anterior-Inferior/Acute</td>
-                </tr>
-                <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">103450</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder G-H Subluxation/Posterior-Inferior/Acute</td>
-                </tr>
-                <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">103500</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder G-H Subluxation/Recurrent</td>
-                </tr>
-                <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">103510</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder G-H Anterior Subluxation/Recurrent</td>
-                </tr>
-                <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">103520</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder G-H Posterior Subluxation/Recurrent</td>
-                </tr>
-                <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">103530</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder G-H Inferior Subluxation/Recurrent</td>
-                </tr>
-                <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">103540</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder G-H Subluxation/Anterior-Inferior/Recur</td>
-                </tr>
-                <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">103550</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder G-H Subluxation/Posterior-Inferior/Recur</td>
-                </tr>
-                <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">103560</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder Biceps Tendon Subluxation/Recurrent</td>
-                </tr>
-                <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">103561</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder Long Biceps Tendon Subluxation/Recurrent</td>
-                </tr>
-                <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">103562</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder Short Biceps Tendon Subluxation/Recurrent</td>
-                </tr>
-                <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">103600</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder G-H Dislocation/Acute</td>
-                </tr>
-                <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">103610</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder G-H Anterior Dislocation/Acute</td>
-                </tr>
-                <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">103620</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder G-H Posterior Dislocation/Acute</td>
-                </tr>
-                <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">103630</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder G-H Inferior Dislocation/Acute</td>
-                </tr>
-                <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">103640</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder G-H Dislocation/Anterior-Inferior/Acute</td>
-                </tr>
-                <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">103650</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder G-H Dislocation/Posterior-Inferior/Acute</td>
-                </tr>
-                <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">103700</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder G-H Dislocation/Recurrent</td>
-                </tr>
-                <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">103710</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder G-H Anterior Dislocation/Recurrent</td>
-                </tr>
-                <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">103720</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder G-H Posterior Dislocation/Recurrent</td>
-                </tr>
-                <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">103730</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder G-H Dislocation/Inferior/Recurrent</td>
-                </tr>
-                <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">103740</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder G-H Dislocation/Anterior-Inferior/Recur</td>
-                </tr>
-                <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">103750</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder G-H Dislocation/Posterior-Inferior/Recur</td>
-                </tr>
-                <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">103900</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder Multi-directional Instability</td>
-                </tr>
-                <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">104000</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder Muscle Strain (non-specific)</td>
-                </tr>
-                <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">104010</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder Rotator Cuff Strain</td>
-                </tr>
-                <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">104011</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder Supraspinatus Strain</td>
-                </tr>
-                <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">104012</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder Infraspinatus Strain</td>
-                </tr>
-                <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">104013</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder Teres Minor Strain</td>
-                </tr>
-                <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">104014</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder Subscapularis Strain</td>
-                </tr>
-                <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">104020</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder Deltoid Strain/Anterior</td>
-                </tr>
-                <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">104030</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder Deltoid Strain/Middle</td>
-                </tr>
-                <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">104040</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder Deltoid Strain/Posterior</td>
-                </tr>
-                <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">104050</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder Triceps Strain</td>
-                </tr>
-                <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">104060</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder Biceps Strain</td>
-                </tr>
-                <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">104070</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder Serratus Anterior Strain</td>
-                </tr>
-                <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">104080</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder Trapezius Strain</td>
-                </tr>
-                <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">104090</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder Teres Major Strain</td>
-                </tr>
-                <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">104100</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder Strain 1 Deg (non-specific)</td>
-                </tr>
-                <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">104110</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder Rotator Cuff Strain 1 Deg</td>
-                </tr>
-                <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">104111</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder Supraspinatus Strain 1 Deg</td>
-                </tr>
-                <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">104112</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder Infraspinatus Strain 1 Deg</td>
-                </tr>
-                <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">104113</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder Teres Minor Strain 1 Deg</td>
-                </tr>
-                <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">104114</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder Subscapularis Strain 1 Deg</td>
-                </tr>
-                <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">104120</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder Deltoid Strain 1 Deg</td>
-                </tr>
-                <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">104130</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder Middle Deltoid Strain 1 Deg</td>
-                </tr>
-                <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">104140</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder Posterior Deltoid Strain 1 Deg</td>
-                </tr>
-                <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">104150</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder Proximal Triceps Strain 1 Deg</td>
-                </tr>
-                <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">104160</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder Proximal Biceps Strain 1 Deg</td>
-                </tr>
-                <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">104170</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder Serratus Anterior Strain 1 Deg</td>
-                </tr>
-                <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">104180</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder Trapezius Strain 1 Deg</td>
-                </tr>
-                <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">104190</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder Teres Major Strain 1 Deg</td>
-                </tr>
-                <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">104200</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder Strain 2 Deg (non-specific)</td>
-                </tr>
-                <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">104210</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder Rotator Cuff Strain 2 Deg</td>
-                </tr>
-                <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">104211</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder Supraspinatus Strain 2 Deg</td>
-                </tr>
-                <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">104212</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder Infraspinatus Strain 2 Deg</td>
-                </tr>
-                <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">104213</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder Teres Minor Strain 2 Deg</td>
-                </tr>
-                <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">104214</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder Subscapularis Strain 2 Deg</td>
-                </tr>
-                <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">104220</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder Deltoid Strain 2 Deg</td>
-                </tr>
-                <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">104230</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder Middle Deltoid Strain 2 Deg</td>
-                </tr>
-                <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">104240</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder Poster Deltoid Strain 2 Deg</td>
-                </tr>
-                <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">104250</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder Proximal Triceps Strain 2 Deg</td>
-                </tr>
-                <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">104260</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder Proximal Biceps Strain 2 Deg</td>
-                </tr>
-                <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">104270</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder Serratus Anterior Strain 2 Deg</td>
-                </tr>
-                <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">104280</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder Trapezius Strain 2 Deg</td>
-                </tr>
-                <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">104290</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder Teres Major Strain 2 Deg</td>
-                </tr>
-                <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">104300</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder Strain 3 Deg (non-specific)</td>
-                </tr>
-                <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">104310</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder Rotator Cuff Strain 3 Deg (Complete Tear)</td>
-                </tr>
-                <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">104311</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder Supraspinatus Strain 3 Deg</td>
-                </tr>
-                <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">104312</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder Infraspinatus Strain 3 Deg</td>
-                </tr>
-                <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">104313</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder Teres Minor Strain 3 Deg</td>
-                </tr>
-                <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">104314</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder Subscapularis Strain 3 Deg (Complete Tear)</td>
-                </tr>
-                <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">104320</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder Deltoid Strain 3 Deg (Complete Tear)</td>
-                </tr>
-                <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">104330</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder Middle Deltoid Strain 3 Deg</td>
-                </tr>
-                <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">104340</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder Posterior Deltoid Strain 3 Deg</td>
-                </tr>
-                <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">104350</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder Proximal Triceps Strain 3 Deg (Complete Tear)</td>
-                </tr>
-                <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">104360</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder Proximal Biceps Strain 3 Deg (Complete Tear)</td>
-                </tr>
-                <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">104370</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder Serratus Anterior Strain 3 Deg (Complete Tear)</td>
-                </tr>
-                <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">104380</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder Trapezius Strain 3 Deg (Complete Tear)</td>
-                </tr>
-                <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">104390</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder Teres Major Strain 3 Deg (Complete Tear)</td>
-                </tr>
-                <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">104400</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder Muscle Avulsion</td>
-                </tr>
-                <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">104410</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder Rotator Cuff Avulsion</td>
-                </tr>
-                <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">104411</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder Supraspinatus Tendon Avulsion</td>
-                </tr>
-                <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">104412</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder Infraspinatus Tendon Avulsion</td>
-                </tr>
-                <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">104413</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder Teres Minor Tendon Avulsion</td>
-                </tr>
-                <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">104414</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder Subscapularis Tendon Avulsion</td>
-                </tr>
-                <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">104460</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder Biceps Tendon Avulsion /Rupture</td>
-                </tr>
-                <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">104560</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder Biceps/Proximal Long Head Rupture</td>
-                </tr>
-                <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">104660</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder Acute Biceps Subluxation/Dislocation</td>
-                </tr>
-                <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">104760</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder Recurrent Biceps Subluxation/Dislocation</td>
-                </tr>
-                <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">104810</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder Rotator Cuff Tendinosis Chronic</td>
-                </tr>
-                <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">104860</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder Biceps Tendon Degeneration</td>
-                </tr>
-                <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">105000</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder Fracture/Non-specific</td>
+                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">113120</td>
+                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Clavicle S-C Sprain/Anterior 1 Deg</td>
                 </tr>
                 <tr>
                   <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">105010</td>
                   <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder Fracture/Scapula</td>
                 </tr>
                 <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">105020</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder Fracture/Humerus Proximal</td>
+                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">110210</td>
+                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Clavicle A-C Contusion</td>
                 </tr>
                 <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">105030</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder Fracture/Humeral Neck</td>
+                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">113130</td>
+                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Clavicle S-C Sprain/Posterior 1 Deg</td>
                 </tr>
                 <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">105050</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder Fracture/Glenoid</td>
+                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">100500</td>
+                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder Bursitis</td>
                 </tr>
                 <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">105060</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder Fracture/Glenoid Fossa</td>
+                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">100700</td>
+                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder Inflammation Synovitis-Capsulitis/Acute</td>
+                </tr>
+                <tr>
+                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">115000</td>
+                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Clavicle Fracture</td>
+                </tr>
+                <tr>
+                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">115020</td>
+                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Clavicle Fracture/Mid (Middle 3rd)</td>
+                </tr>
+                <tr>
+                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">113220</td>
+                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Clavicle S-C Sprain/Anterior 2 Deg</td>
+                </tr>
+                <tr>
+                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">113330</td>
+                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Clavicle S-C Sprain/Posterior 3 Deg</td>
+                </tr>
+                <tr>
+                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">110200</td>
+                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Clavicle Contusion</td>
+                </tr>
+                <tr>
+                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">115030</td>
+                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Clavicle Fracture/Lateral (Outer 3rd)</td>
+                </tr>
+                <tr>
+                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">110220</td>
+                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Clavicle S-C Contusion</td>
+                </tr>
+                <tr>
+                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">113230</td>
+                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Clavicle S-C Sprain/Posterior 2 Deg</td>
                 </tr>
                 <tr>
                   <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">105070</td>
                   <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder Fracture/Coracoid Process</td>
                 </tr>
                 <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">105110</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder Fracture/Scapula/Open</td>
+                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">135022</td>
+                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Arm Fracture/Humerus Proximal - Greater Tubersity</td>
                 </tr>
                 <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">105210</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder Fracture/Scapula/Avulsion</td>
+                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">130207</td>
+                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Arm Humeral Bone Contusion - Proximal 3rd</td>
                 </tr>
                 <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">105230</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder Fracture/Humeral Shaft</td>
+                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">203410</td>
+                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Chest Costochondral Separation</td>
                 </tr>
                 <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">105250</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder Fracture/Glenoid/Avulsion</td>
+                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">205010</td>
+                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Chest Fracture/Rib</td>
                 </tr>
                 <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">105300</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder Fracture/Humerus/Dislocation</td>
+                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">200212</td>
+                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Chest Rib Contusion/Mid Cage</td>
                 </tr>
                 <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">105400</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder Fracture/Humerus/Epiphyseal</td>
+                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">113320</td>
+                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Clavicle S-C Sprain/Anterior 3 Deg</td>
                 </tr>
                 <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">105430</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder Fracture/Humeral Neck/Epiphyseal</td>
+                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">105050</td>
+                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder Fracture/Glenoid</td>
                 </tr>
                 <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">105510</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder Fracture/Scapula/Stress</td>
+                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">101500</td>
+                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder Nerve Contusion</td>
                 </tr>
                 <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">105540</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder Fracture Proximal Acromion/Stress</td>
+                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">91010</td>
+                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Neck Brachial Plexus Stretch</td>
                 </tr>
                 <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">105800</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder Fracture/Comminuted</td>
+                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">101010</td>
+                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder Axillary Nerve Compression</td>
                 </tr>
                 <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">105810</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder Fracture/Scapula/Comminuted</td>
+                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">91020</td>
+                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Neck Brachial Plexus Compression</td>
                 </tr>
                 <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">105910</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder Fracture/Scapula/Other</td>
+                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">104110</td>
+                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder Rotator Cuff Strain 1 Deg</td>
                 </tr>
                 <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">105920</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder Fracture/Humerus/Greater Trochanter Other</td>
+                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">104210</td>
+                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder Rotator Cuff Strain 2 Deg</td>
                 </tr>
                 <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">106100</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder Inflammation</td>
+                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">104000</td>
+                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder Muscle Strain (non-specific)</td>
                 </tr>
                 <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">106101</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder G-H Joint Inflammation</td>
+                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">104114</td>
+                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder Subscapularis Strain 1 Deg</td>
                 </tr>
                 <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">106102</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder Rotator Cuff Inflammation</td>
+                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">104180</td>
+                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder Trapezius Strain 1 Deg</td>
                 </tr>
                 <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">106103</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder Adductor Inflammation</td>
+                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">104360</td>
+                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder Proximal Biceps Strain 3 Deg (Complete Tear)</td>
                 </tr>
                 <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">106104</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder Biceps Tendon Inflammation</td>
+                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">104214</td>
+                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder Subscapularis Strain 2 Deg</td>
                 </tr>
                 <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">106110</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder Epiphysitis</td>
+                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">104120</td>
+                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder Deltoid Strain 1 Deg</td>
                 </tr>
                 <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">106150</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder Epicondylitis</td>
+                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">100610</td>
+                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder Rotator Cuff Tendinitis/Acute</td>
                 </tr>
                 <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">106160</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder Chronic Tendinitis</td>
-                </tr>
-                <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">106161</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder Biceps Tendinitis/Chronic</td>
-                </tr>
-                <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">106170</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder Synovitis-Capsulitis</td>
-                </tr>
-                <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">106171</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder Adhesive Capsulitis</td>
-                </tr>
-                <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">106190</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder Osteomyelitis</td>
-                </tr>
-                <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">106210</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder Osteochondritis Dissecans/AVN</td>
-                </tr>
-                <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">106230</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder DJD (Degenerative Joint Disease)</td>
-                </tr>
-                <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">106250</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder Rotator Cuff Calcification</td>
-                </tr>
-                <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">106270</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder Myositis Ossificans</td>
-                </tr>
-                <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">106310</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder Bone Cyst/Solitary</td>
-                </tr>
-                <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">106410</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder Joint Loose Bodies</td>
-                </tr>
-                <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">106460</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder Degeneration</td>
-                </tr>
-                <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">106461</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder Internal Derangement</td>
-                </tr>
-                <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">106470</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder Impingement</td>
-                </tr>
-                <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">106471</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder Exertion Thrombosis</td>
-                </tr>
-                <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">106480</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder Musculoskeletal Weakness</td>
-                </tr>
-                <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">106501</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder Glenoid Labrum Tear/Anterior</td>
+                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">103610</td>
+                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder G-H Anterior Dislocation/Acute</td>
                 </tr>
                 <tr>
                   <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">106502</td>
                   <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder Glenoid Labrum Tear/Posterior</td>
                 </tr>
                 <tr>
+                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">104310</td>
+                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder Rotator Cuff Strain 3 Deg (Complete Tear)</td>
+                </tr>
+                <tr>
+                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">104660</td>
+                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder Acute Biceps Subluxation/Dislocation</td>
+                </tr>
+                <tr>
+                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">104220</td>
+                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder Deltoid Strain 2 Deg</td>
+                </tr>
+                <tr>
+                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">103420</td>
+                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder G-H Posterior Subluxation/Acute</td>
+                </tr>
+                <tr>
                   <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">106503</td>
                   <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder Glenoid Labrum Tear/Superior</td>
-                </tr>
-                <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">106504</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder Glenoid Labrum Tear/Inferior</td>
-                </tr>
-                <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">106505</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder Glenoid Labrum Tear/SLAP</td>
-                </tr>
-                <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">106506</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder Glenoid Labrum Tear/Bankart</td>
                 </tr>
                 <tr>
                   <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">106507</td>
                   <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder Labral Tear (non-specific)</td>
                 </tr>
                 <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">108210</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder Congenital Defect</td>
+                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">100900</td>
+                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder Muscle Spasms</td>
                 </tr>
                 <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">108211</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder Os Acromiale</td>
+                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">104160</td>
+                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder Proximal Biceps Strain 1 Deg</td>
                 </tr>
                 <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">108600</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder Infection</td>
+                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">104260</td>
+                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder Proximal Biceps Strain 2 Deg</td>
                 </tr>
                 <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">108601</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder Staph Infection - MRSA</td>
+                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">104810</td>
+                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder Rotator Cuff Tendinosis Chronic</td>
                 </tr>
                 <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">108602</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder Staph Infection - MSSA</td>
+                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">104270</td>
+                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder Serratus Anterior Strain 2 Deg</td>
                 </tr>
                 <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">108603</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder Joint Staph Infection - MRSA</td>
+                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">104314</td>
+                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder Subscapularis Strain 3 Deg (Complete Tear)</td>
                 </tr>
                 <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">108604</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder Joint Staph Infection - MSSA</td>
+                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">104211</td>
+                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder Supraspinatus Strain 2 Deg</td>
                 </tr>
                 <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">108605</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder External Skin Staph Infection - MRSA</td>
+                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">104050</td>
+                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder Triceps Strain</td>
                 </tr>
                 <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">108606</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder External Skin Staph Infection - MSSA</td>
+                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">116230</td>
+                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Clavicle A-C Arthritis</td>
                 </tr>
                 <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">108800</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder Non Disease/Atypical Condition</td>
+                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">116371</td>
+                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Clavicle Osteolysis</td>
                 </tr>
                 <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">108900</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder Benign Tumor</td>
+                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">230200</td>
+                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Lumbar Back Contusion</td>
                 </tr>
                 <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">109600</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder G-H Disarticulation</td>
+                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">106230</td>
+                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder DJD (Degenerative Joint Disease)</td>
                 </tr>
                 <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">109700</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder Burn 1 Deg</td>
+                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">103410</td>
+                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder G-H Anterior Subluxation/Acute</td>
                 </tr>
                 <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">109701</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder Burn 2 Deg</td>
+                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">106501</td>
+                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder Glenoid Labrum Tear/Anterior</td>
                 </tr>
                 <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">109702</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder Burn 3 Deg</td>
+                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">104250</td>
+                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder Proximal Triceps Strain 2 Deg</td>
                 </tr>
                 <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">109703</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder Friction Blister</td>
+                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">104350</td>
+                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder Proximal Triceps Strain 3 Deg (Complete Tear)</td>
                 </tr>
                 <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">134040</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Arm Latissimus Dorsi Strain/Tendon (Insertional)</td>
+                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">100614</td>
+                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder Subscapularis Tendinitis/Acute</td>
                 </tr>
                 <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">134061</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Arm Proximal Biceps Strain - Tendon (Insertional)</td>
+                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">104311</td>
+                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder Supraspinatus Strain 3 Deg</td>
                 </tr>
                 <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">134460</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Arm Proximal Biceps Tendon Insertional Rupture</td>
+                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">104190</td>
+                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder Teres Major Strain 1 Deg</td>
                 </tr>
                 <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">135020</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Arm Fracture/Humerus Head</td>
-                </tr>
-                <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">135021</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Arm Humeral Head - Hill-Sachs Lesion</td>
-                </tr>
-                <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">135022</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Arm Fracture/Humerus Proximal - Greater Tubersity</td>
-                </tr>
-                <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">135023</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Arm Fracture/Humerus Proximal - Humeral Head</td>
-                </tr>
-                <tr>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">135024</td>
-                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Arm Fracture/Humerus Proximal - Lesser Tuberosity</td>
+                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">104113</td>
+                  <td class="whitespace-nowrap text-left px-3 py-4 text-sm text-gray-500">Shoulder Teres Minor Strain 1 Deg</td>
                 </tr>
                 </tbody>
               </table>
