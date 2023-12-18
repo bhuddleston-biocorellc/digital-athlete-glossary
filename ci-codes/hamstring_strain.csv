@@ -1,0 +1,73 @@
+ci_code,ci_description
+364042,Hip Proximal Biceps Femoris Strain
+364043,Hamstring Unknown Muscle Strain - Proximal
+364142,Proximal Hamstring Biceps Femoris Strain - 1st Degree
+364143,Hip/Proximal Hamstring Strain 1 Deg / Muscle Unknown
+364242,Proximal Hamstring Biceps Femoris Strain - 2nd Degree
+364243,Hip/Proximal Hamstring Strain 2 Deg / Muscle Unknown
+364342,Hamstring Biceps Femoris Avulsion/Rupture/Complete Tear - Proximal
+364343,Hip/Proximal Hamstring Strain 3 Deg (Avulsion or Complete Tear) / Muscle Unknown
+374030,Groin Hamstring Strain/Medial Proximal
+374040,Groin Hamstring Strain/Lateral Proximal
+374130,Hamstring Proximal Semitendinosus Strain - 1st Degree
+374140,Hamstring Proximal Semimembranosus Strain - 1st Degree
+374230,Hamstring Proximal Semitendinosus Strain - 2nd Degree
+374240,Hamstring Proximal Semimembranosus Strain - 2nd Degree
+374330,Hamstring Semitendinosus Avulsion/Rupture/Complete Tear - Proximal
+374340,Hamstring Semimembranosus Avulsion/Rupture/Complete Tear - Proximal
+374351,Hamstring Biceps Femoris Strain - Proximal
+374352,Hamstring Semitendinosus Strain - Proximal
+374353,Hamstring Semimembranosus Strain - Proximal
+384030,Hamstring Unknown Muscle Strain - Central
+384031,Thigh Semitendinosus Strain/Medial Belly
+384032,Thigh Semimembranosus Strain/Medial Belly
+384033,Thigh Biceps Femoris Strain/Medial Belly
+384040,Thigh Hamstring Strain/Lateral Belly
+384041,Thigh Biceps Femoris Strain/Lateral Belly
+384060,Hamstring Myofascial Strain - Muscle Unknown
+384061,Hamstring Myofascial Strain - Semitendinosus
+384062,Hamstring Myofascial Strain - Semimembranosus
+384063,Hamstring Myofascial Strain - Biceps Femoris
+384130,Thigh/Muscle Belly Hamstring Strain Deg 1 / Muscle Unknown
+384131,Hamstring Mid Semitendinosus Strain - 1st Degree
+384132,Hamstring Mid Semimembranosus Strain - 1st Degree
+384133,Thigh Biceps Femoris Strain/Medial Belly
+384140,Thigh Hamstring Strain/Lateral Belly 1 Deg
+384141,Hamstring Mid Biceps Femoris Strain - 1st Degree
+384230,Thigh/Muscle Belly Hamstring Strain Deg 2 / Muscle Unknown
+384231,Hamstring Mid Semitendinosus Strain - 2nd Degree
+384232,Hamstring Mid Semimembranosus Strain - 2nd Degree
+384240,Thigh Hamstring Strain/Lateral Belly 2 Deg
+384241,Hamstring Mid Biceps Femoris Strain - 2nd Degree
+384330,Thigh/Muscle Belly Hamstring Strain Deg 3 (Avulsion or Complete Tear) / Muscle Unknown
+384331,Hamstring Semitendinosus Rupture/Complete Tear - Central
+384332,Hamstring Semimembranosus Rupture/Complete Tear - Central
+384340,Thigh Hamstring Strain/Lateral Belly 3 Deg
+384341,Hamstring Biceps Femoris Rupture/Complete Tear - Central
+384351,Hamstring Biceps Femoris Strain - Central
+384352,Hamstring Semitendinosus Strain - Central
+384353,Hamstring Semimembranosus Strain - Central
+404030,Hamstring Unknown Muscle Strain - Distal
+404040,Knee Lateral Hamstring Strain/Distal
+404043,Knee Biceps Femoris Strain/Distal
+404130,Knee/Distal Hamstring Strain 1 Deg / Muscle Unknown
+404140,Knee Lateral Hamstring Strain/Distal 1 Deg
+404143,Hamstring Distal Biceps Femoris Strain - 1st Degree
+404144,Hamstring Distal Semitendinosus Strain - 1st Degree
+404145,Hamstring Distal Semimembranosus Strain - 1st Degree
+404230,Knee/Distal Hamstring Strain 2 Deg / Muscle Unknown
+404240,Knee Lateral Hamstring Strain/Distal 2 Deg
+404280,Hamstring Distal Biceps Femoris Strain - 2nd Degree
+404281,Hamstring Distal Semitendinosus Strain - 2nd Degree
+404282,Hamstring Distal Semimembranosus Strain - 2nd Degree
+404330,Knee/Distal Hamstring Strain 3 Deg (Avulsion or Complete Tear) / Muscle Unknown
+404340,Knee Lateral Hamstring Strain/Distal 3 Deg (Complete Tear)
+404341,Hamstring Biceps Femoris Strain - Distal
+404342,Hamstring Semitendinosus Strain - Distal
+404343,Hamstring Semimembranosus Strain - Distal
+404380,Hamstring Biceps Femoris Avulsion/Rupture/Complete Tear- Distal
+404381,Hamstring Semitendinosus Avulsion/Rupture/Complete Tear - Distal
+404382,Hamstring Semimembranosus Avulsion/Rupture/Complete Tear - Distal
+404430,Knee Medial Hamstring Avulsion/Distal
+404440,Knee Lateral Hamstring Avulsion/Distal
+404530,Knee Hamstring Tendon Severance/Medial/Post

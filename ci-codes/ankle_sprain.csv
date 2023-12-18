@@ -1,0 +1,72 @@
+ci_code,ci_description
+423010,Tibia Interosseous Membrane Sprain
+423110,Tibia Interosseous Membrane Sprain 1 Deg
+423210,Tibia Interosseous Membrane Sprain 2 Deg
+423310,Tibia Interosseous Membrane Sprain 3 Deg
+443000,Ankle Sprain (non-specific)
+443010,Lateral Ankle Sprain / Ligament Unknown
+443011,Ankle Fibular Collateral Ligament Sprain
+443012,Lateral Ankle Sprain / Anterior Talofibular
+443013,Lateral Ankle Sprain / Posterior Talofibular
+443014,Lateral Ankle Sprain / Calcaneofibular
+443016,Ankle Subtalar Joint Ligament Sprain
+443020,Ankle Medial Sprain
+443021,Medial Ankle Sprain / Deltoid
+443022,High Ankle Sprain / Anterior Tibiofibular
+443023,High Ankle Sprain / Posterior Tibiofibular
+443029,Ankle Anterior Retinaculum Sprain
+443030,Ankle Peroneal/Posterior Retinaculum Sprain
+443031,Ankle Anterior Capsule Sprain
+443032,Ankle Posterior Retinaculum Sprain
+443033,High Ankle Sprain / Syndesmotic
+443100,Ankle Sprain 1 Deg (non-specific)
+443110,Ankle Lateral Sprain 1 Deg
+443111,Ankle Fibular Collateral Ligament Sprain 1 Deg
+443112,Ankle Anterior Talo-Fibular Sprain 1 Deg
+443113,Ankle Posterior Talo-Fibular Sprain 1 Deg
+443114,Ankle Calcaneo-Fibular Ligament Sprain 1 Deg
+443115,Ankle Calcaneo-Cuboid Ligament Sprain 1 Deg
+443116,Ankle Crural Ligament Sprain 1 Deg
+443120,Ankle Medial Sprain 1 Deg
+443121,Ankle Deltoid Ligament Sprain 1 Deg
+443122,Ankle Anterior Tibio-Fibular Sprain 1 Deg
+443123,Ankle Posterior Tibio-Fibular Sprain 1 Deg
+443131,Ankle Anterior Capsule Sprain 1 Deg
+443132,Ankle Posterior Retinacular Sprain 1 Deg
+443200,Ankle Sprain 2 Deg (non-specific)
+443210,Ankle Lateral Sprain 2 Deg
+443211,Ankle Fibular Collateral Ligament Sprain 2 Deg
+443212,Ankle Anterior Talo-Fibular Sprain 2 Deg
+443213,Ankle Posterior Talo-Fibular Sprain 2 Deg
+443214,Ankle Calcaneofibular Ligament Sprain 2 Deg
+443220,Ankle Medial Sprain 2 Deg
+443221,Ankle Deltoid Ligament Sprain 2 Deg
+443222,Ankle Anterior Tibio-Fibular Sprain 2 Deg
+443223,Ankle Posterior Tibio-Fibular Sprain 2 Deg
+443231,Ankle Anterior Capsule Sprain 2 Deg
+443232,Ankle Posterior Retinacular Sprain 2 Deg
+443240,Ankle Anterior Tibio-Fibular Sprain 2 Deg
+443300,Ankle Sprain 3 Deg (non-specific)
+443310,Ankle Lateral Sprain 3 Deg
+443311,Ankle Fibular Collateral Ligament Sprain 3 Deg
+443312,Ankle Anterior Talo-Fibular Sprain 3 Deg
+443313,Ankle Posterior Talo-Fibular Sprain 3 Deg
+443314,Ankle Calcaneofibular Ligament Sprain 3 Deg
+443320,Ankle Medial Sprain 3 Deg
+443321,Ankle Deltoid Ligament Sprain 3 Deg
+443322,Ankle Anterior Tibio-Fibular Sprain 3 Deg
+443323,Ankle Posterior Tibio-Fibular Sprain 3 Deg
+443331,Ankle Anterior Capsule Sprain 3 Deg
+443332,Ankle Posterior Retinacular Sprain 3 Deg
+443400,Ankle Subluxation/Acute
+443411,Ankle Fibular Collateral Ligament Sprain Subluxation
+443420,Ankle Subluxation/Eversion Acute
+443421,Ankle Anterior Tibio-Fibular Subluxation
+443430,Ankle Subluxation/Inversion Acute
+443431,Ankle Anterior Talo-Fibular Subluxation
+443440,Ankle Subluxation/Posterior Acute
+443500,Ankle Subluxation/Recurrent
+443600,Ankle Dislocation
+443610,Ankle Subtalar/Under Foot Dislocation
+443620,Ankle Dislocation/Talus
+443800,Ankle Dislocation/Open

@@ -1,0 +1,90 @@
+ci_code,ci_description
+403000,Knee Sprain (non-specific)
+403001,Knee Hyperextension Sprain
+403002,Knee Hyperflexion Sprain
+403010,Knee Anterior Cruciate Sprain
+403011,Knee Anterior Cruciate Ligament Tear - Complete
+403012,Knee Anterior Cruciate Ligament Tear - Partial
+403020,Knee Posterior Cruciate Sprain
+403030,Knee Lateral Collateral Sprain
+403040,Knee Medial Collateral Sprain
+403050,Knee Anterior Capsule Sprain
+403051,Knee Antero-Medial Capsule Sprain
+403052,Knee Antero-Lateral Capsule Sprain
+403060,Knee Posterior Capsule Sprain
+403061,Knee Posterior-Medial Capsule Sprain
+403062,Knee Posterior-Lateral Capsule Sprain
+403070,Knee Medial Capsule Sprain
+403080,Knee Lateral Capsule Sprain
+403090,Knee Patellofemoral Ligament (MPFL) Sprain
+403100,Knee Sprain 1 Deg (non-specific)
+403101,Knee Hyperextension Sprain 1 Deg
+403102,Knee Hyperflexion Sprain 1 Deg
+403110,Knee Anterior Cruciate Sprain 1 Deg
+403120,Knee Posterior Cruciate Sprain - Grade 1
+403130,Knee Lateral Collateral Sprain - Grade 1
+403140,Knee Medial Collateral Sprain - Grade 1
+403150,Knee Anterior Capsule Sprain 1 Deg
+403151,Knee Anterior-Medial Capsule Sprain 1 Deg
+403152,Knee Anterior-Lateral Capsule Sprain 1 Deg
+403160,Knee Posterior Capsule Sprain 1 Deg
+403161,Knee Posterior-Medial Capsule Sprain 1 Deg
+403162,Knee Posterior-Lateral Capsule Sprain 1 Deg
+403170,Knee Medial Capsule Sprain 1 Deg
+403180,Knee Lateral Capsule Sprain 1 Deg
+403200,Knee Sprain 2 Deg (non-specific)
+403201,Knee Hyperextension Sprain 2 Deg
+403202,Knee Hyperflexion Sprain 2 Deg
+403210,Knee Anterior Cruciate Sprain 2 Deg
+403220,Knee Posterior Cruciate Sprain - Grade 2
+403230,Knee Lateral Collateral Sprain - Grade 2
+403240,Knee Medial Collateral Sprain - Grade 2
+403250,Knee Anterior Capsule Sprain 2 Deg
+403251,Knee Anterior-Medial Capsule Sprain 2 Deg
+403252,Knee Anterior-Lateral Capsule Sprain 2 Deg
+403260,Knee Posterior Capsule Sprain 2 Deg
+403261,Knee Posterior-Medial Capsule Sprain 2 Deg
+403262,Knee Posterior-Lateral Capsule Sprain 2 Deg
+403270,Knee Medial Capsule Sprain 2 Deg
+403280,Knee Lateral Capsule Sprain 2 Deg
+403300,Knee Sprain 3 Deg (non-specific)
+403301,Knee Hyperextension Sprain 3 Deg
+403302,Knee Hyperflexion Sprain 3 Deg
+403310,Knee Anterior Cruciate Sprain 3 Deg
+403320,Knee Posterior Cruciate Sprain - Grade 3
+403330,Knee Lateral Collateral Sprain - Grade 3
+403340,Knee Medial Collateral Sprain - Grade 3
+403350,Knee Anterior Capsule Sprain 3 Deg
+403351,Knee Anterior-Medial Capsule Sprain 3 Deg
+403352,Knee Anterior-Lateral Capsule Sprain 3 Deg
+403360,Knee Posterior Capsule Sprain 3 Deg
+403361,Knee Posterior-Medial Capsule Sprain 3 Deg
+403362,Knee Posterior-Lateral Capsule Sprain 3 Deg
+403370,Knee Medial Capsule Sprain 3 Deg
+403380,Knee Lateral Capsule Sprain 3 Deg
+403400,Knee Subluxation/Acute
+403410,Knee Subluxation/Anterior/Acute
+403430,Knee Subluxation/Lateral/Acute
+403470,Knee Subluxation/Anterior Capsule/Acute
+403510,Knee Subluxation/Anterior/Recurrent
+403540,Knee Subluxation/Medial/Recurrent
+403600,Knee Dislocation
+403610,Knee Dislocation - Anterior
+403620,Knee Dislocation - Posterior
+403630,Knee Dislocation - Medial
+403640,Knee Dislocation - Lateral
+403800,Knee Dislocation/Open
+403880,Knee Dislocation/Posterior /Open
+403900,Knee Joint Laxity
+413400,Patella Subluxation/Acute
+413401,Patella Subluxation/Acute - Lateral
+413402,Patella Subluxation/Acute - Medial
+413500,Patella Subluxation/Recurrent
+413501,Patella Subluxation/Recurrent - Lateral
+413502,Patella Subluxation/Recurrent - Medial
+413600,Patella Dislocation/Acute
+413601,Patella Dislocation/Acute - Lateral
+413602,Patella Dislocation/Acute - Medial
+413700,Patella Dislocation/Recurrent
+413701,Patella Dislocation/Recurrent - Lateral
+413702,Patella Dislocation/Recurrent - Medial

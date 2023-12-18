@@ -1,0 +1,315 @@
+ci_code,ci_description
+363000,Hip Sprain (non-specific)
+363100,Hip Sprain 1 Deg (non-specific)
+363200,Hip Sprain 2 Deg (non-specific)
+363300,Hip Sprain 3 Deg (non-specific)
+363510,Hip Subluxation/Anterior
+363520,Hip Subluxation/Posterior
+363610,Hip Dislocation/Anterior
+363620,Hip Dislocation/Posterior
+373000,Groin Sprain (non-specific)
+373100,Groin Sprain 1 Deg (non-specific)
+373200,Groin Sprain 2 Deg (non-specific)
+373300,Groin Sprain 3 Deg (non-specific)
+403000,Knee Sprain (non-specific)
+403001,Knee Hyperextension Sprain
+403002,Knee Hyperflexion Sprain
+403010,Knee Anterior Cruciate Sprain
+403011,Knee Anterior Cruciate Ligament Tear - Complete
+403012,Knee Anterior Cruciate Ligament Tear - Partial
+403013,Knee Anterior Cruciate Ligament Mucoid Degeneration
+403020,Knee Posterior Cruciate Sprain
+403030,Knee Lateral Collateral Sprain
+403040,Knee Medial Collateral Sprain
+403050,Knee Anterior Capsule Sprain
+403051,Knee Antero-Medial Capsule Sprain
+403052,Knee Antero-Lateral Capsule Sprain
+403060,Knee Posterior Capsule Sprain
+403061,Knee Posterior-Medial Capsule Sprain
+403062,Knee Posterior-Lateral Capsule Sprain
+403070,Knee Medial Capsule Sprain
+403080,Knee Lateral Capsule Sprain
+403090,Knee Patellofemoral Ligament (MPFL) Sprain
+403100,Knee Sprain 1 Deg (non-specific)
+403101,Knee Hyperextension Sprain 1 Deg
+403102,Knee Hyperflexion Sprain 1 Deg
+403110,Knee Anterior Cruciate Sprain 1 Deg
+403120,Knee Posterior Cruciate Sprain - Grade 1
+403130,Knee Lateral Collateral Sprain - Grade 1
+403140,Knee Medial Collateral Sprain - Grade 1
+403150,Knee Anterior Capsule Sprain 1 Deg
+403151,Knee Anterior-Medial Capsule Sprain 1 Deg
+403152,Knee Anterior-Lateral Capsule Sprain 1 Deg
+403160,Knee Posterior Capsule Sprain 1 Deg
+403161,Knee Posterior-Medial Capsule Sprain 1 Deg
+403162,Knee Posterior-Lateral Capsule Sprain 1 Deg
+403170,Knee Medial Capsule Sprain 1 Deg
+403180,Knee Lateral Capsule Sprain 1 Deg
+403200,Knee Sprain 2 Deg (non-specific)
+403201,Knee Hyperextension Sprain 2 Deg
+403202,Knee Hyperflexion Sprain 2 Deg
+403210,Knee Anterior Cruciate Sprain 2 Deg
+403220,Knee Posterior Cruciate Sprain - Grade 2
+403230,Knee Lateral Collateral Sprain - Grade 2
+403240,Knee Medial Collateral Sprain - Grade 2
+403250,Knee Anterior Capsule Sprain 2 Deg
+403251,Knee Anterior-Medial Capsule Sprain 2 Deg
+403252,Knee Anterior-Lateral Capsule Sprain 2 Deg
+403260,Knee Posterior Capsule Sprain 2 Deg
+403261,Knee Posterior-Medial Capsule Sprain 2 Deg
+403262,Knee Posterior-Lateral Capsule Sprain 2 Deg
+403270,Knee Medial Capsule Sprain 2 Deg
+403280,Knee Lateral Capsule Sprain 2 Deg
+403300,Knee Sprain 3 Deg (non-specific)
+403301,Knee Hyperextension Sprain 3 Deg
+403302,Knee Hyperflexion Sprain 3 Deg
+403310,Knee Anterior Cruciate Sprain 3 Deg
+403320,Knee Posterior Cruciate Sprain - Grade 3
+403330,Knee Lateral Collateral Sprain - Grade 3
+403340,Knee Medial Collateral Sprain - Grade 3
+403350,Knee Anterior Capsule Sprain 3 Deg
+403351,Knee Anterior-Medial Capsule Sprain 3 Deg
+403352,Knee Anterior-Lateral Capsule Sprain 3 Deg
+403360,Knee Posterior Capsule Sprain 3 Deg
+403361,Knee Posterior-Medial Capsule Sprain 3 Deg
+403362,Knee Posterior-Lateral Capsule Sprain 3 Deg
+403370,Knee Medial Capsule Sprain 3 Deg
+403380,Knee Lateral Capsule Sprain 3 Deg
+403400,Knee Subluxation/Acute
+403410,Knee Subluxation/Anterior/Acute
+403430,Knee Subluxation/Lateral/Acute
+403470,Knee Subluxation/Anterior Capsule/Acute
+403510,Knee Subluxation/Anterior/Recurrent
+403540,Knee Subluxation/Medial/Recurrent
+403600,Knee Dislocation
+403610,Knee Dislocation - Anterior
+403620,Knee Dislocation - Posterior
+403630,Knee Dislocation - Medial
+403640,Knee Dislocation - Lateral
+403800,Knee Dislocation/Open
+403880,Knee Dislocation/Posterior /Open
+403900,Knee Joint Laxity
+413400,Patella Subluxation/Acute
+413401,Patella Subluxation/Acute - Lateral
+413402,Patella Subluxation/Acute - Medial
+413500,Patella Subluxation/Recurrent
+413501,Patella Subluxation/Recurrent - Lateral
+413502,Patella Subluxation/Recurrent - Medial
+413600,Patella Dislocation/Acute
+413601,Patella Dislocation/Acute - Lateral
+413602,Patella Dislocation/Acute - Medial
+413700,Patella Dislocation/Recurrent
+413701,Patella Dislocation/Recurrent - Lateral
+413702,Patella Dislocation/Recurrent - Medial
+423000,Leg Muscle Sprain (non-specific)
+423010,Tibia Interosseous Membrane Sprain
+423020,Tibio-Fibular Sprain/Proximal
+423100,Tibia Sprain 1 Deg (non-specific)
+423110,Tibia Interosseous Membrane Sprain 1 Deg
+423120,Tibia Sprain Tibio-Fibular/Proximal 1 Deg
+423200,Tibia Sprain 2 Deg (non-specific)
+423210,Tibia Interosseous Membrane Sprain 2 Deg
+423220,Tibia Sprain Tibio-Fibular/Proximal 2 Deg
+423300,Tibia Sprain 3 Deg (non-specific)
+423310,Tibia Interosseous Membrane Sprain 3 Deg
+423320,Tibia Sprain Tibio-Fibular/Proximal 3 Deg
+433000,Fibula Superior Tibio-Fibular Sprain
+433100,Fibula Superior Tibio-Fibular Sprain 1 Deg
+433200,Fibula Superior Tibio-Fibular Sprain 2 Deg
+433400,Fibula Superior Tibio-Fibular Subluxation
+433600,Fibula Superior Tibio-Fibular Dislocation
+443000,Ankle Sprain (non-specific)
+443010,Lateral Ankle Sprain / Ligament Unknown
+443011,Ankle Fibular Collateral Ligament Sprain
+443012,Lateral Ankle Sprain / Anterior Talofibular
+443013,Lateral Ankle Sprain / Posterior Talofibular
+443014,Lateral Ankle Sprain / Calcaneofibular
+443015,Calcaneo-Cuboid Ligament Sprain
+443016,Ankle Subtalar Joint Ligament Sprain
+443020,Ankle Medial Sprain
+443021,Medial Ankle Sprain / Deltoid
+443022,High Ankle Sprain / Anterior Tibiofibular
+443023,High Ankle Sprain / Posterior Tibiofibular
+443029,Ankle Anterior Retinaculum Sprain
+443030,Ankle Peroneal/Posterior Retinaculum Sprain
+443031,Ankle Anterior Capsule Sprain
+443032,Ankle Posterior Retinaculum Sprain
+443033,High Ankle Sprain / Syndesmotic
+443100,Ankle Sprain 1 Deg (non-specific)
+443110,Ankle Lateral Sprain 1 Deg
+443111,Ankle Fibular Collateral Ligament Sprain 1 Deg
+443112,Ankle Anterior Talo-Fibular Sprain 1 Deg
+443113,Ankle Posterior Talo-Fibular Sprain 1 Deg
+443114,Ankle Calcaneo-Fibular Ligament Sprain 1 Deg
+443115,Ankle Calcaneo-Cuboid Ligament Sprain 1 Deg
+443116,Ankle Crural Ligament Sprain 1 Deg
+443120,Ankle Medial Sprain 1 Deg
+443121,Ankle Deltoid Ligament Sprain 1 Deg
+443122,Ankle Anterior Tibio-Fibular Sprain 1 Deg
+443123,Ankle Posterior Tibio-Fibular Sprain 1 Deg
+443131,Ankle Anterior Capsule Sprain 1 Deg
+443132,Ankle Posterior Retinacular Sprain 1 Deg
+443200,Ankle Sprain 2 Deg (non-specific)
+443210,Ankle Lateral Sprain 2 Deg
+443211,Ankle Fibular Collateral Ligament Sprain 2 Deg
+443212,Ankle Anterior Talo-Fibular Sprain 2 Deg
+443213,Ankle Posterior Talo-Fibular Sprain 2 Deg
+443214,Ankle Calcaneofibular Ligament Sprain 2 Deg
+443220,Ankle Medial Sprain 2 Deg
+443221,Ankle Deltoid Ligament Sprain 2 Deg
+443222,Ankle Anterior Tibio-Fibular Sprain 2 Deg
+443223,Ankle Posterior Tibio-Fibular Sprain 2 Deg
+443231,Ankle Anterior Capsule Sprain 2 Deg
+443232,Ankle Posterior Retinacular Sprain 2 Deg
+443240,Ankle Anterior Tibio-Fibular Sprain 2 Deg
+443300,Ankle Sprain 3 Deg (non-specific)
+443310,Ankle Lateral Sprain 3 Deg
+443311,Ankle Fibular Collateral Ligament Sprain 3 Deg
+443312,Ankle Anterior Talo-Fibular Sprain 3 Deg
+443313,Ankle Posterior Talo-Fibular Sprain 3 Deg
+443314,Ankle Calcaneofibular Ligament Sprain 3 Deg
+443320,Ankle Medial Sprain 3 Deg
+443321,Ankle Deltoid Ligament Sprain 3 Deg
+443322,Ankle Anterior Tibio-Fibular Sprain 3 Deg
+443323,Ankle Posterior Tibio-Fibular Sprain 3 Deg
+443331,Ankle Anterior Capsule Sprain 3 Deg
+443332,Ankle Posterior Retinacular Sprain 3 Deg
+443400,Ankle Subluxation/Acute
+443411,Ankle Fibular Collateral Ligament Sprain Subluxation
+443420,Ankle Subluxation/Eversion Acute
+443421,Ankle Anterior Tibio-Fibular Subluxation
+443430,Ankle Subluxation/Inversion Acute
+443431,Ankle Anterior Talo-Fibular Subluxation
+443440,Ankle Subluxation/Posterior Acute
+443500,Ankle Subluxation/Recurrent
+443600,Ankle Dislocation
+443610,Ankle Subtalar/Under Foot Dislocation
+443620,Ankle Dislocation/Talus
+443800,Ankle Dislocation/Open
+453000,Foot Sprain (non-specific)
+453001,Foot Arch Sprain/Static
+453002,Foot Arch Sprain/Traumatic/Plantar Fascial
+453003,Foot Lateral Aspect Sprain
+453004,Foot Medial Aspect Sprain
+453010,Foot Plantar Arch Sprain
+453011,Foot Transverse Arch Sprain
+453012,Foot Spring Ligament Sprain
+453013,Foot Long Plantar Ligament Sprain
+453014,Foot Short Plantar Ligament Sprain
+453015,Foot Plantar Aponeurosis Sprain
+453016,Foot Calcaneocuboid Sprain
+453017,Foot Plantar Fascia Tear/Rupture
+453020,Foot Midtarsal Sprain
+453021,Foot Lis-Franc Sprain
+453022,Foot Tarso-Navicular Sprain
+453030,Foot Tarsometatarsal Sprain
+453031,Foot 1st Tarsometatarsal Sprain
+453032,Foot 2nd Tarsometatarsal Sprain
+453033,Foot 3rd Tarsometatarsal Sprain
+453034,Foot 4th Tarsometatarsal Sprain
+453035,Foot 5th Tarsometatarsal Sprain
+453100,Foot Sprain 1 Deg (non-specific)
+453101,Foot Arch Sprain/Static 1 Deg
+453102,Foot Traumatic Arch Sprain 1 Deg
+453103,Foot Lateral Aspect Sprain 1 Deg
+453104,Foot Medial Aspect Sprain 1 Deg
+453110,Foot Plantar Arch Sprain 1 Deg
+453111,Foot Transverse Arch Sprain 1 Deg
+453112,Foot Spring Ligament Sprain 1 Deg
+453113,Foot Long Plantar Ligament Sprain 1 Deg
+453114,Foot Short Plantar Ligament Sprain 1 Deg
+453115,Foot Plantar Aponeurosis Sprain 1 Deg
+453116,Foot Calcaneocuboid Sprain 1 Deg
+453117,Foot Plantar Fascia Tear 1 Deg
+453120,Foot Midtarsal Sprain 1 Deg
+453121,Foot Lis-franc Sprain 1 Deg
+453122,Foot Tarso-Navicular Sprain 1 Deg
+453130,Foot Tarsometatarsal Sprain 1 Deg
+453131,Foot 1st Tarsometatarsal Sprain 1 Deg
+453132,Foot 2nd Tarsometatarsal Sprain 1 Deg
+453133,Foot 3rd Tarsometatarsal Sprain 1 Deg
+453134,Foot 4th Tarsometatarsal Sprain 1 Deg
+453135,Foot 5th Tarsometatarsal Sprain 1 Deg
+453200,Foot Sprain 2 Deg (non-specific)
+453201,Foot Arch Sprain/Static 2 Deg
+453202,Foot Traumatic Arch Sprain 2 Deg
+453210,Foot Plantar Arch Sprain 2 Deg
+453211,Foot Transverse Arch Sprain 2 Deg
+453212,Foot Spring Ligament Sprain 2 Deg
+453213,Foot Long Plantar Ligament Sprain 2 Deg
+453214,Foot Short Plantar Ligament Sprain 2 Deg
+453215,Foot Plantar Aponeurosis Sprain 2 Deg
+453216,Foot Calcaneocuboid Sprain 2 Deg
+453217,Foot Plantar Fascia Tear 2 Deg
+453220,Foot Midtarsal Sprain 2 Deg
+453221,Foot Lis-Franc Sprain 2 Deg
+453230,Foot Tarsometatarsal Sprain 2 Deg
+453300,Foot Sprain 3 Deg (non-specific)
+453301,Foot Arch Sprain/Static 3 Deg
+453302,Foot Arch Sprain/Traumatic 3 Deg
+453310,Foot Plantar Arch Sprain 3 Deg
+453311,Foot Transverse Arch Sprain 3 Deg
+453312,Foot Spring Ligament Sprain 3 Deg
+453313,Foot Long Plantar Ligament Sprain 3 Deg
+453314,Foot Short Plantar Ligament Sprain 3 Deg
+453315,Foot Plantar Aponeurosis Sprain 3 Deg
+453316,Foot Calcaneocuboid Sprain 3 Deg
+453317,Foot Plantar Fascia Tear 3 Deg
+453320,Foot Midtarsal Sprain 3 Deg
+453321,Foot Lis-Franc Subluxation/Dislocation
+453330,Foot Tarsometatarsal Sprain 3 Deg
+453400,Foot Subluxation/Acute
+453410,Foot Talonavicular Subluxation/Dislocation
+453450,Foot Midtarsal Subluxation/Dislocation/Acute
+453460,Foot Tarsometatarsal Subluxation/Dislocation/Acute
+453550,Foot Midtarsal Subluxation/Recurrent
+453551,Foot Cuboid Subluxation (Syndrome)
+453600,Foot Dislocation
+453650,Foot Dislocation/Midtarsal
+453660,Foot Tarsometatarsal Dislocation
+473000,Great Toe Sprain (non-specific)
+473010,Great Toe I-P Sprain
+473020,Great Toe M-P Sprain/Turf Toe
+473100,Great Toe Sprain 1 Deg (non-specific)
+473110,Great Toe I-P Sprain 1 Deg
+473120,Great Toe M-P Sprain 1 Deg/Turf Toe
+473200,Great Toe Sprain 2 Deg (non-specific)
+473210,Great Toe I-P Sprain 2 Deg
+473220,Great Toe M-P Sprain 2 Deg/Turf Toe
+473300,Great Toe Sprain 3 Deg (non-specific)
+473310,Great Toe I-P Sprain 3 Deg
+473320,Great Toe M-P Sprain 3 Deg/Turf Toe
+473400,Great Toe Subluxation/Acute
+473520,Great Toe M-P Subluxation/Recurrent
+473600,Great Toe Dislocation
+473610,Great Toe I-P Subluxation/Dislocation
+473620,Great Toe M-P Subluxation/Dislocation
+483000,Toe Sprain (non-specific)
+483010,Toe Metatarsophalangeal (M-P) Sprain
+483011,Toe 1st M-P Joint Sprain
+483012,Toe 2nd M-P Joint Sprain
+483013,Toe 3rd M-P Joint Sprain
+483014,Toe 4th M-P Joint Sprain
+483015,Toe 5th M-P Joint Sprain
+483020,Toe Interphalangeal Sprain
+483100,Toe Sprain 1 Deg (non-specific)
+483110,Toe Metatarsophalangeal Sprain 1 Deg
+483111,Toe 1st M-P Joint Sprain 1 Deg
+483112,Toe 2nd M-P Joint Sprain 1 Deg
+483113,Toe 3rd M-P Joint Sprain 1 Deg
+483114,Toe 4th M-P Joint Sprain 1 Deg
+483115,Toe 5th M-P Joint Sprain 1 Deg
+483120,Toe Interphalangeal Sprain 1 Deg
+483200,Toe Sprain 2 Deg (non-specific)
+483210,Toe Metatarsophalangeal Sprain 2 Deg
+483215,Toe 5th M-P Joint Sprain 2 Deg
+483220,Toe Interphalangeal Sprain 2 Deg
+483300,Toe Sprain 3 Deg (non-specific)
+483310,Toe Metatarsophalangeal Sprain 3 Deg
+483315,Toe 5th M-P Joint Sprain 3 Deg
+483320,Toe Interphalangeal Sprain 3 Deg
+483500,Toe Subluxation
+483502,Toe Lesser M-P Subluxation
+483600,Toe Dislocation
+483610,Toe Metatarsophalangeal Dislocation Other Than Great Toe/Hallux MP Joint
+483620,Toe Interphalangeal Dislocation Other Than Great Toe/Hallux MP Joint
