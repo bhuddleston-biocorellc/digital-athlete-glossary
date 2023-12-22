@@ -1,0 +1,182 @@
+ci_code,ci_description
+364020,Hip Adductor Strain
+364034,Hip Rectus Femoris Strain - Proximal
+364035,Hip Rectus Femoris Avulsion/Rupture/Complete Tear - Proximal
+364036,Hip Rectus Femoris Partial Tear - Proximal
+364042,Hip Proximal Biceps Femoris Strain
+364043,Hamstring Unknown Muscle Strain - Proximal
+364120,Hip Adductor Strain 1 Deg
+364134,Hip Rectus Femoris Strain /Proximal 1 Deg
+364142,Proximal Hamstring Biceps Femoris Strain - 1st Degree
+364143,Hip/Proximal Hamstring Strain 1 Deg / Muscle Unknown
+364220,Hip Adductor Strain 2 Deg
+364242,Proximal Hamstring Biceps Femoris Strain - 2nd Degree
+364243,Hip/Proximal Hamstring Strain 2 Deg / Muscle Unknown
+364310,Hip Abductor Strain 3 Deg
+364320,Hip Adductor Strain 3 Deg
+364342,Hamstring Biceps Femoris Avulsion/Rupture/Complete Tear - Proximal
+364343,Hip/Proximal Hamstring Strain 3 Deg (Avulsion or Complete Tear) / Muscle Unknown
+374010,Groin Quadriceps Strain - Proximal
+374015,Groin Adductor Avulsion/Rupture/Complete Tear - Proximal
+374020,Groin Adductor Strain - Proximal
+374021,Groin Gracilis Strain - Proximal
+374022,Groin Adductor Magnus Strain - Proximal
+374023,Groin Adductor Longus Strain - Proximal
+374024,Groin Adductor Brevis Strain - Proximal
+374025,Groin Pectineus Strain
+374030,Groin Hamstring Strain/Medial Proximal
+374040,Groin Hamstring Strain/Lateral Proximal
+374110,Groin Quadriceps Strain/Proximal 1 Deg
+374120,Groin Adductor Strain/Proximal 1 Deg
+374121,Groin Gracilis Strain/Proximal 1 Deg
+374122,Groin Adductor Magnus/Proximal 1 Deg
+374123,Groin Adductor Longus/Proximal 1 Deg
+374124,Groin Adductor Brevis/Proximal 1 Deg
+374130,Hamstring Proximal Semitendinosus Strain - 1st Degree
+374140,Hamstring Proximal Semimembranosus Strain - 1st Degree
+374210,Groin Quadriceps Strain/Proximal 2 Deg
+374220,Groin Adductor Strain/Proximal 2 Deg
+374221,Groin Gracilis Strain/Proximal 2 Deg
+374222,Groin Adductor Magnus/Proximal 2 Deg
+374223,Groin Adductor Longus/Proximal 2 Deg
+374224,Groin Adductor Brevis/Proximal 2 Deg
+374230,Hamstring Proximal Semitendinosus Strain - 2nd Degree
+374240,Hamstring Proximal Semimembranosus Strain - 2nd Degree
+374310,Groin Quadriceps Strain/Proximal 3 Deg
+374320,Groin Adductor Strain/Proximal 3 Deg
+374321,Groin Gracilis Strain/Proximal 3 Deg
+374322,Groin Adductor Magnus/Proximal 3 Deg
+374323,Groin Adductor Longus/Proximal 3 Deg
+374324,Groin Adductor Brevis/Proximal 3 Deg
+374330,Hamstring Semitendinosus Avulsion/Rupture/Complete Tear - Proximal
+374340,Hamstring Semimembranosus Avulsion/Rupture/Complete Tear - Proximal
+374351,Hamstring Biceps Femoris Strain - Proximal
+374352,Hamstring Semitendinosus Strain - Proximal
+374353,Hamstring Semimembranosus Strain - Proximal
+380024,Thigh Gracilis Strain - Central
+380915,Quadriceps Myofascial Strain
+384000,Thigh Muscle Strain/Belly
+384010,Thigh Quads Strain/Belly
+384011,Thigh Vastus Lateralis Strain
+384012,Thigh Vastus Intermedius Strain
+384013,Thigh Vastus Medialis Strain
+384014,Thigh Rectus Femoris Strain - Central
+384020,Thigh Adductor Strain - Central
+384021,Thigh Adductor Longus Strain - Central
+384022,Thigh Adductor Brevis Strain - Central
+384023,Thigh Adductor Magnus Strain - Central
+384030,Hamstring Unknown Muscle Strain - Central
+384031,Thigh Semitendinosus Strain/Medial Belly
+384032,Thigh Semimembranosus Strain/Medial Belly
+384033,Thigh Biceps Femoris Strain/Medial Belly
+384040,Thigh Hamstring Strain/Lateral Belly
+384041,Thigh Biceps Femoris Strain/Lateral Belly
+384050,Quadriceps Myofascial Strain / Muscle Unknown
+384051,Quadriceps Myofascial Strain / Vastus Lateralis
+384052,Quadriceps Myofascial Strain / Vastus Intermedius
+384053,Quadriceps Myofascial Strain / Vastus Medialis
+384054,Quadriceps Myofascial Strain / Rectus Femoris
+384055,Quadriceps Myofascial Strain
+384060,Hamstring Myofascial Strain - Muscle Unknown
+384061,Hamstring Myofascial Strain - Semitendinosus
+384062,Hamstring Myofascial Strain - Semimembranosus
+384063,Hamstring Myofascial Strain - Biceps Femoris
+384100,Thigh Muscle Strain/Belly 1 Deg
+384110,Thigh Quads Strain/Belly 1 Deg
+384111,Thigh Vastus Lateralis Strain1 Deg
+384112,Thigh Vastus Intermedius Strain1 Deg
+384113,Thigh Vastus Medialis Strain1 Deg
+384114,Thigh Rectus Femoris Strain 1 Deg
+384120,Thigh Adductor Strain/Belly 1 Deg
+384121,Thigh Adductor Longus Strain/Belly 1 Deg
+384122,Thigh Adductor Brevis Strain/Belly 1 Deg
+384123,Thigh Adductor Magnus Strain/Belly 1 Deg
+384130,Thigh/Muscle Belly Hamstring Strain Deg 1 / Muscle Unknown
+384131,Hamstring Mid Semitendinosus Strain - 1st Degree
+384132,Hamstring Mid Semimembranosus Strain - 1st Degree
+384133,Thigh Biceps Femoris Strain/Medial Belly
+384140,Thigh Hamstring Strain/Lateral Belly 1 Deg
+384141,Hamstring Mid Biceps Femoris Strain - 1st Degree
+384200,Thigh Muscle Strain/Belly 2 Deg
+384210,Thigh Quads Strain/Belly 2 Deg
+384211,Thigh Vastus Lateralis Strain 2 Deg
+384212,Thigh Vastus Intrmedius Strain 2 Deg
+384213,Thigh Vastus Medialis Strain 2 Deg
+384214,Thigh Rectus Femoris Strain 2 Deg
+384220,Thigh Adductor Strain/Belly 2 Deg
+384221,Thigh Adductor Longus Strain/Belly 2 Deg
+384222,Thigh Adductor Brevis Strain/Belly 2 Deg
+384223,Thigh Adductor Magnus Strain/Belly 2 Deg
+384230,Thigh/Muscle Belly Hamstring Strain Deg 2 / Muscle Unknown
+384231,Hamstring Mid Semitendinosus Strain - 2nd Degree
+384232,Hamstring Mid Semimembranosus Strain - 2nd Degree
+384240,Thigh Hamstring Strain/Lateral Belly 2 Deg
+384241,Hamstring Mid Biceps Femoris Strain - 2nd Degree
+384300,Thigh Muscle Strain/Belly 3 Deg (Complete Tear)
+384310,Thigh Quads Strain/Belly 3 Deg
+384311,Thigh Vastus Lateralis Strain3 Deg
+384312,Thigh Vastus Intrmedius Strain3 Deg
+384313,Thigh Vastus Medialis Strain 3 Deg
+384314,Thigh Rectus Femoris Strain 3 Deg
+384320,Thigh Adductor Strain/Belly 3 Deg
+384321,Thigh Adductor Longus Strain/Belly 3 Deg
+384322,Thigh Adductor Brevis Strain/Belly 3 Deg
+384323,Thigh Adductor Magnus Strain/Belly 3 Deg
+384330,Thigh/Muscle Belly Hamstring Strain Deg 3 (Avulsion or Complete Tear) / Muscle Unknown
+384331,Hamstring Semitendinosus Rupture/Complete Tear - Central
+384332,Hamstring Semimembranosus Rupture/Complete Tear - Central
+384340,Thigh Hamstring Strain/Lateral Belly 3 Deg
+384341,Hamstring Biceps Femoris Rupture/Complete Tear - Central
+384351,Hamstring Biceps Femoris Strain - Central
+384352,Hamstring Semitendinosus Strain - Central
+384353,Hamstring Semimembranosus Strain - Central
+384410,Thigh Quads Strain/Tendon Avulsion
+384414,Thigh Rectus Femoris/Avulsion
+384505,Knee Quadriceps Tendon Partial Tear
+384510,Knee Quadriceps Tendon Avulsion/Rupture/Complete Tear
+384573,Thigh Vastus Medialis/severed
+404010,Knee Quadriceps Strain/Distal
+404020,Knee Adductor Strain - Distal
+404021,Knee Gracilis Strain - Distal
+404030,Hamstring Unknown Muscle Strain - Distal
+404040,Knee Lateral Hamstring Strain/Distal
+404043,Knee Biceps Femoris Strain/Distal
+404110,Knee Quadriceps Strain/Distal 1 Deg
+404120,Knee Adductor Strain/Distal 1 Deg
+404130,Knee/Distal Hamstring Strain 1 Deg / Muscle Unknown
+404140,Knee Lateral Hamstring Strain/Distal 1 Deg
+404143,Hamstring Distal Biceps Femoris Strain - 1st Degree
+404144,Hamstring Distal Semitendinosus Strain - 1st Degree
+404145,Hamstring Distal Semimembranosus Strain - 1st Degree
+404210,Knee Quadriceps Strain/Distal - Partial
+404220,Knee Adductor Strain/Distal 2 Deg
+404230,Knee/Distal Hamstring Strain 2 Deg / Muscle Unknown
+404240,Knee Lateral Hamstring Strain/Distal 2 Deg
+404280,Hamstring Distal Biceps Femoris Strain - 2nd Degree
+404281,Hamstring Distal Semitendinosus Strain - 2nd Degree
+404282,Hamstring Distal Semimembranosus Strain - 2nd Degree
+404310,Knee Quadriceps Avulsion/Rupture/Complete Tear - Distal
+404320,Knee Adductor Strain/Distal 3 Deg
+404330,Knee/Distal Hamstring Strain 3 Deg (Avulsion or Complete Tear) / Muscle Unknown
+404340,Knee Lateral Hamstring Strain/Distal 3 Deg (Complete Tear)
+404341,Hamstring Biceps Femoris Strain - Distal
+404342,Hamstring Semitendinosus Strain - Distal
+404343,Hamstring Semimembranosus Strain - Distal
+404380,Hamstring Biceps Femoris Avulsion/Rupture/Complete Tear- Distal
+404381,Hamstring Semitendinosus Avulsion/Rupture/Complete Tear - Distal
+404382,Hamstring Semimembranosus Avulsion/Rupture/Complete Tear - Distal
+404410,Knee Quadriceps Avulsion/Distal
+404420,Knee Adductor Avulsion/Rupture/Complete Tear - Distal
+404430,Knee Medial Hamstring Avulsion/Distal
+404440,Knee Lateral Hamstring Avulsion/Distal
+404530,Knee Hamstring Tendon Severance/Medial/Post
+434001,Calf Plantaris Strain
+434002,Calf Gastrocnemius Strain
+434003,Calf Soleus Strain
+434102,Fibula Gastrocnemius Strain 1 Deg
+434103,Fibula Soleus Strain 1 Deg
+434202,Fibula Gastrocnemius Strain 2 Deg
+434203,Fibula Soleus Strain 2 Deg
+434302,Fibula Gastrocnemius Strain 3 Deg
+434303,Fibula Soleus Strain 3 Deg
+434500,Calf Gastrocnemius Avulsion/Rupture/Complete Tear

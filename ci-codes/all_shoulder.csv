@@ -1,0 +1,239 @@
+ci_code,ci_description
+100100,Shoulder Abrasion
+100200,Shoulder Contusion
+100201,Shoulder Anterior Contusion
+100202,Shoulder Posterior Contusion
+100203,Shoulder Rotator Cuff Contusion
+100210,Shoulder Subacromial Contusion
+100212,Shoulder Infraspinatus Contusion
+100220,Shoulder Deltoid Contusion
+100221,Shoulder Deltoid/Anterior Contusion
+100222,Shoulder Middle Deltoid Contusion
+100223,Shoulder Posterior Deltoid Contusion
+100240,Shoulder Scapular Contusion
+100241,Shoulder Scapular Spine Contusion
+100243,Shoulder Supraspinatus Contusion
+100250,Shoulder Teres Minor Contusion
+100260,Shoulder Long Head Biceps Contusion
+100270,Shoulder Serratus Anterior Contusion
+100280,Shoulder Trapezius Contusion
+100290,Shoulder Pectoralis Major Tendon Contusion
+100300,Shoulder Puncture Wound
+100400,Shoulder Laceration
+100500,Shoulder Bursitis
+100510,Shoulder Subacromial Bursitis
+100520,Shoulder Subdeltoid Bursitis
+100600,Shoulder Acute Tendinitis
+100610,Shoulder Rotator Cuff Tendinitis/Acute
+100611,Shoulder Supraspinatus Tendinitis/Acute
+100612,Shoulder Infraspinatus Tendinitis/Acute
+100613,Shoulder Teres Minor Tendinitis/Acute
+100614,Shoulder Subscapularis Tendinitis/Acute
+100660,Shoulder Biceps Tendinitis/Acute
+100661,Shoulder Biceps Tendinitis/Long Head /Acute
+100662,Shoulder Biceps Tendinitis/Short Head /Acute
+100700,Shoulder Inflammation Synovitis-Capsulitis/Acute
+100800,Shoulder Vascular Trauma
+100810,Shoulder Thoracic Outlet Syndrome
+100811,Shoulder Paget-Schroetter Syndrome
+100900,Shoulder Muscle Spasms
+100910,Shoulder Deltoid Muscle Spasm
+100911,Shoulder Deltoid/Anterior Spasm
+100912,Shoulder Middle Deltoid Spasm
+100913,Shoulder Posterior Deltoid Spasm
+100980,Shoulder Trapezius Spasm
+101010,Shoulder Axillary Nerve Compression
+101500,Shoulder Nerve Contusion
+101510,Shoulder Nerve Contusion w/Sensory Loss
+101520,Shoulder Nerve Contusion w/Motor Loss
+101530,Shoulder Nerve Contusion w/S&M Loss
+101600,Shoulder Nerve Disorder
+101610,Shoulder Nerve Disorder w/Sensory Loss
+101620,Shoulder Nerve Disorder w/Motor Loss
+101630,Shoulder Nerve Disorder w/S&M Loss
+101641,Shoulder Ganglion Cyst
+101800,Shoulder Nerve Laceration
+103000,Shoulder Sprain (non-specific)
+103010,Shoulder Anterior Capsule Sprain
+103020,Shoulder Posterior Capsule Sprain
+103100,Shoulder Sprain 1 Deg (non-specific)
+103110,Shoulder Anterior Capsule Sprain 1 Deg
+103120,Shoulder Posterior Capsule Sprain 1 Deg
+103200,Shoulder Sprain 2 Deg (non-specific)
+103210,Shoulder Anterior Capsule Sprain 2 Deg
+103220,Shoulder Posterior Capsule Sprain 2 Deg
+103300,Shoulder Sprain 3 Deg (non-specific)
+103310,Shoulder Anterior Capsule Sprain 3 Deg
+103320,Shoulder Posterior Capsule Sprain 3 Deg
+103400,Shoulder G-H Subluxation/Acute
+103410,Shoulder G-H Anterior Subluxation/Acute
+103420,Shoulder G-H Posterior Subluxation/Acute
+103430,Shoulder G-H Inferior Subluxation/Acute
+103440,Shoulder G-H Subluxation/Anterior-Inferior/Acute
+103450,Shoulder G-H Subluxation/Posterior-Inferior/Acute
+103500,Shoulder G-H Subluxation/Recurrent
+103510,Shoulder G-H Anterior Subluxation/Recurrent
+103520,Shoulder G-H Posterior Subluxation/Recurrent
+103530,Shoulder G-H Inferior Subluxation/Recurrent
+103540,Shoulder G-H Subluxation/Anterior-Inferior/Recur
+103550,Shoulder G-H Subluxation/Posterior-Inferior/Recur
+103560,Shoulder Biceps Tendon Subluxation/Recurrent
+103561,Shoulder Long Biceps Tendon Subluxation/Recurrent
+103562,Shoulder Short Biceps Tendon Subluxation/Recurrent
+103600,Shoulder G-H Dislocation/Acute
+103610,Shoulder G-H Anterior Dislocation/Acute
+103620,Shoulder G-H Posterior Dislocation/Acute
+103630,Shoulder G-H Inferior Dislocation/Acute
+103640,Shoulder G-H Dislocation/Anterior-Inferior/Acute
+103650,Shoulder G-H Dislocation/Posterior-Inferior/Acute
+103700,Shoulder G-H Dislocation/Recurrent
+103710,Shoulder G-H Anterior Dislocation/Recurrent
+103720,Shoulder G-H Posterior Dislocation/Recurrent
+103730,Shoulder G-H Dislocation/Inferior/Recurrent
+103740,Shoulder G-H Dislocation/Anterior-Inferior/Recur
+103750,Shoulder G-H Dislocation/Posterior-Inferior/Recur
+103900,Shoulder Multi-directional Instability
+104000,Shoulder Muscle Strain (non-specific)
+104010,Shoulder Rotator Cuff Strain
+104011,Shoulder Supraspinatus Strain
+104012,Shoulder Infraspinatus Strain
+104013,Shoulder Teres Minor Strain
+104014,Shoulder Subscapularis Strain
+104020,Shoulder Deltoid Strain/Anterior
+104030,Shoulder Deltoid Strain/Middle
+104040,Shoulder Deltoid Strain/Posterior
+104050,Shoulder Triceps Strain
+104060,Shoulder Biceps Strain
+104070,Shoulder Serratus Anterior Strain
+104080,Shoulder Trapezius Strain
+104090,Shoulder Teres Major Strain
+104100,Shoulder Strain 1 Deg (non-specific)
+104110,Shoulder Rotator Cuff Strain 1 Deg
+104111,Shoulder Supraspinatus Strain 1 Deg
+104112,Shoulder Infraspinatus Strain 1 Deg
+104113,Shoulder Teres Minor Strain 1 Deg
+104114,Shoulder Subscapularis Strain 1 Deg
+104120,Shoulder Deltoid Strain 1 Deg
+104130,Shoulder Middle Deltoid Strain 1 Deg
+104140,Shoulder Posterior Deltoid Strain 1 Deg
+104150,Shoulder Proximal Triceps Strain 1 Deg
+104160,Shoulder Proximal Biceps Strain 1 Deg
+104170,Shoulder Serratus Anterior Strain 1 Deg
+104180,Shoulder Trapezius Strain 1 Deg
+104190,Shoulder Teres Major Strain 1 Deg
+104200,Shoulder Strain 2 Deg (non-specific)
+104210,Shoulder Rotator Cuff Strain 2 Deg
+104211,Shoulder Supraspinatus Strain 2 Deg
+104212,Shoulder Infraspinatus Strain 2 Deg
+104213,Shoulder Teres Minor Strain 2 Deg
+104214,Shoulder Subscapularis Strain 2 Deg
+104220,Shoulder Deltoid Strain 2 Deg
+104230,Shoulder Middle Deltoid Strain 2 Deg
+104240,Shoulder Poster Deltoid Strain 2 Deg
+104250,Shoulder Proximal Triceps Strain 2 Deg
+104260,Shoulder Proximal Biceps Strain 2 Deg
+104270,Shoulder Serratus Anterior Strain 2 Deg
+104280,Shoulder Trapezius Strain 2 Deg
+104290,Shoulder Teres Major Strain 2 Deg
+104300,Shoulder Strain 3 Deg (non-specific)
+104310,Shoulder Rotator Cuff Strain 3 Deg (Complete Tear)
+104311,Shoulder Supraspinatus Strain 3 Deg
+104312,Shoulder Infraspinatus Strain 3 Deg
+104313,Shoulder Teres Minor Strain 3 Deg
+104314,Shoulder Subscapularis Strain 3 Deg (Complete Tear)
+104320,Shoulder Deltoid Strain 3 Deg (Complete Tear)
+104330,Shoulder Middle Deltoid Strain 3 Deg
+104340,Shoulder Posterior Deltoid Strain 3 Deg
+104350,Shoulder Proximal Triceps Strain 3 Deg (Complete Tear)
+104360,Shoulder Proximal Biceps Strain 3 Deg (Complete Tear)
+104370,Shoulder Serratus Anterior Strain 3 Deg (Complete Tear)
+104380,Shoulder Trapezius Strain 3 Deg (Complete Tear)
+104390,Shoulder Teres Major Strain 3 Deg (Complete Tear)
+104400,Shoulder Muscle Avulsion
+104410,Shoulder Rotator Cuff Avulsion
+104411,Shoulder Supraspinatus Tendon Avulsion
+104412,Shoulder Infraspinatus Tendon Avulsion
+104413,Shoulder Teres Minor Tendon Avulsion
+104414,Shoulder Subscapularis Tendon Avulsion
+104460,Shoulder Biceps Tendon Avulsion /Rupture
+104560,Shoulder Biceps/Proximal Long Head Rupture
+104660,Shoulder Acute Biceps Subluxation/Dislocation
+104760,Shoulder Recurrent Biceps Subluxation/Dislocation
+104810,Shoulder Rotator Cuff Tendinosis Chronic
+104860,Shoulder Biceps Tendon Degeneration
+105000,Shoulder Fracture/Non-specific
+105010,Shoulder Fracture/Scapula
+105020,Shoulder Fracture/Humerus Proximal
+105030,Shoulder Fracture/Humeral Neck
+105050,Shoulder Fracture/Glenoid
+105060,Shoulder Fracture/Glenoid Fossa
+105070,Shoulder Fracture/Coracoid Process
+105110,Shoulder Fracture/Scapula/Open
+105210,Shoulder Fracture/Scapula/Avulsion
+105230,Shoulder Fracture/Humeral Shaft
+105250,Shoulder Fracture/Glenoid/Avulsion
+105300,Shoulder Fracture/Humerus/Dislocation
+105400,Shoulder Fracture/Humerus/Epiphyseal
+105430,Shoulder Fracture/Humeral Neck/Epiphyseal
+105510,Shoulder Fracture/Scapula/Stress
+105540,Shoulder Fracture Proximal Acromion/Stress
+105800,Shoulder Fracture/Comminuted
+105810,Shoulder Fracture/Scapula/Comminuted
+105910,Shoulder Fracture/Scapula/Other
+105920,Shoulder Fracture/Humerus/Greater Trochanter Other
+106100,Shoulder Inflammation
+106101,Shoulder G-H Joint Inflammation
+106102,Shoulder Rotator Cuff Inflammation
+106103,Shoulder Adductor Inflammation
+106104,Shoulder Biceps Tendon Inflammation
+106110,Shoulder Epiphysitis
+106150,Shoulder Epicondylitis
+106160,Shoulder Chronic Tendinitis
+106161,Shoulder Biceps Tendinitis/Chronic
+106170,Shoulder Synovitis-Capsulitis
+106171,Shoulder Adhesive Capsulitis
+106190,Shoulder Osteomyelitis
+106200,Shoulder Chondral Defect / Glenoid
+106205,Shoulder Paralabral Cyst
+106210,Shoulder Osteochondritis Dissecans/AVN
+106230,Shoulder DJD (Degenerative Joint Disease)
+106250,Shoulder Rotator Cuff Calcification
+106270,Shoulder Myositis Ossificans
+106310,Shoulder Bone Cyst/Solitary
+106410,Shoulder Joint Loose Bodies
+106460,Shoulder Degeneration
+106461,Shoulder Internal Derangement
+106470,Shoulder Impingement
+106471,Shoulder Exertion Thrombosis
+106480,Shoulder Musculoskeletal Weakness
+106501,Shoulder Glenoid Labrum Tear/Anterior
+106502,Shoulder Glenoid Labrum Tear/Posterior
+106503,Shoulder Glenoid Labrum Tear/Superior
+106504,Shoulder Glenoid Labrum Tear/Inferior
+106505,Shoulder Glenoid Labrum Tear/SLAP
+106506,Shoulder Glenoid Labrum Tear/Bankart
+106507,Shoulder Labral Tear (non-specific)
+108210,Shoulder Congenital Defect
+108211,Shoulder Os Acromiale
+108600,Shoulder Infection
+108601,Shoulder Staph Infection - MRSA
+108602,Shoulder Staph Infection - MSSA
+108603,Shoulder Joint Staph Infection - MRSA
+108604,Shoulder Joint Staph Infection - MSSA
+108605,Shoulder External Skin Staph Infection - MRSA
+108606,Shoulder External Skin Staph Infection - MSSA
+108800,Shoulder Non Disease/Atypical Condition
+108900,Shoulder Benign Tumor
+109600,Shoulder G-H Disarticulation
+109700,Shoulder Burn 1 Deg
+109701,Shoulder Burn 2 Deg
+109702,Shoulder Burn 3 Deg
+109703,Shoulder Friction Blister
+134040,Arm Latissimus Dorsi Strain/Tendon (Insertional)
+134061,Arm Proximal Biceps Strain - Tendon (Insertional)
+134460,Arm Proximal Biceps Tendon Insertional Rupture
+135020,Arm Fracture/Humerus Head
+135021,Arm Humeral Head - Hill-Sachs Lesion
+135022,Arm Fracture - Proximal Humerus - Greater Tuberosity
+135023,Arm Fracture/Humerus Proximal - Humeral Head
+135024,Arm Fracture/Humerus Proximal - Lesser Tuberosity
