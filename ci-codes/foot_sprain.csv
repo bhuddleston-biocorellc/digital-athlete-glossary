@@ -1,0 +1,83 @@
+ci_code,ci_description
+443015,Calcaneo-Cuboid Ligament Sprain
+453000,Foot Sprain (non-specific)
+453001,Foot Arch Sprain/Static
+453002,Foot Arch Sprain/Traumatic/Plantar Fascial
+453003,Foot Lateral Aspect Sprain
+453004,Foot Medial Aspect Sprain
+453010,Foot Plantar Arch Sprain
+453011,Foot Transverse Arch Sprain
+453012,Foot Spring Ligament Sprain
+453013,Foot Long Plantar Ligament Sprain
+453014,Foot Short Plantar Ligament Sprain
+453015,Foot Plantar Aponeurosis Sprain
+453016,Foot Calcaneocuboid Sprain
+453017,Foot Plantar Fascia Tear/Rupture
+453020,Foot Midtarsal Sprain
+453021,Foot Lis-Franc Sprain
+453022,Foot Tarso-Navicular Sprain
+453030,Foot Tarsometatarsal Sprain
+453031,Foot 1st Tarsometatarsal Sprain
+453032,Foot 2nd Tarsometatarsal Sprain
+453033,Foot 3rd Tarsometatarsal Sprain
+453034,Foot 4th Tarsometatarsal Sprain
+453035,Foot 5th Tarsometatarsal Sprain
+453100,Foot Sprain 1 Deg (non-specific)
+453101,Foot Arch Sprain/Static 1 Deg
+453102,Foot Traumatic Arch Sprain 1 Deg
+453103,Foot Lateral Aspect Sprain 1 Deg
+453104,Foot Medial Aspect Sprain 1 Deg
+453110,Foot Plantar Arch Sprain 1 Deg
+453111,Foot Transverse Arch Sprain 1 Deg
+453112,Foot Spring Ligament Sprain 1 Deg
+453113,Foot Long Plantar Ligament Sprain 1 Deg
+453114,Foot Short Plantar Ligament Sprain 1 Deg
+453115,Foot Plantar Aponeurosis Sprain 1 Deg
+453116,Foot Calcaneocuboid Sprain 1 Deg
+453117,Foot Plantar Fascia Tear 1 Deg
+453120,Foot Midtarsal Sprain 1 Deg
+453121,Foot Lis-franc Sprain 1 Deg
+453122,Foot Tarso-Navicular Sprain 1 Deg
+453130,Foot Tarsometatarsal Sprain 1 Deg
+453131,Foot 1st Tarsometatarsal Sprain 1 Deg
+453132,Foot 2nd Tarsometatarsal Sprain 1 Deg
+453133,Foot 3rd Tarsometatarsal Sprain 1 Deg
+453134,Foot 4th Tarsometatarsal Sprain 1 Deg
+453135,Foot 5th Tarsometatarsal Sprain 1 Deg
+453200,Foot Sprain 2 Deg (non-specific)
+453201,Foot Arch Sprain/Static 2 Deg
+453202,Foot Traumatic Arch Sprain 2 Deg
+453210,Foot Plantar Arch Sprain 2 Deg
+453211,Foot Transverse Arch Sprain 2 Deg
+453212,Foot Spring Ligament Sprain 2 Deg
+453213,Foot Long Plantar Ligament Sprain 2 Deg
+453214,Foot Short Plantar Ligament Sprain 2 Deg
+453215,Foot Plantar Aponeurosis Sprain 2 Deg
+453216,Foot Calcaneocuboid Sprain 2 Deg
+453217,Foot Plantar Fascia Tear 2 Deg
+453220,Foot Midtarsal Sprain 2 Deg
+453221,Foot Lis-Franc Sprain 2 Deg
+453230,Foot Tarsometatarsal Sprain 2 Deg
+453300,Foot Sprain 3 Deg (non-specific)
+453301,Foot Arch Sprain/Static 3 Deg
+453302,Foot Arch Sprain/Traumatic 3 Deg
+453310,Foot Plantar Arch Sprain 3 Deg
+453311,Foot Transverse Arch Sprain 3 Deg
+453312,Foot Spring Ligament Sprain 3 Deg
+453313,Foot Long Plantar Ligament Sprain 3 Deg
+453314,Foot Short Plantar Ligament Sprain 3 Deg
+453315,Foot Plantar Aponeurosis Sprain 3 Deg
+453316,Foot Calcaneocuboid Sprain 3 Deg
+453317,Foot Plantar Fascia Tear 3 Deg
+453320,Foot Midtarsal Sprain 3 Deg
+453321,Foot Lis-Franc Subluxation/Dislocation
+453330,Foot Tarsometatarsal Sprain 3 Deg
+453400,Foot Subluxation/Acute
+453410,Foot Talonavicular Subluxation/Dislocation
+453450,Foot Midtarsal Subluxation/Dislocation/Acute
+453460,Foot Tarsometatarsal Subluxation/Dislocation/Acute
+453550,Foot Midtarsal Subluxation/Recurrent
+453551,Foot Cuboid Subluxation (Syndrome)
+453600,Foot Dislocation
+453650,Foot Dislocation/Midtarsal
+453660,Foot Tarsometatarsal Dislocation

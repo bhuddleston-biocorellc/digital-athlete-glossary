@@ -1,0 +1,21 @@
+ci_code,ci_description
+11000,Head Concussion
+11010,Head Concussion w/Sensory Loss
+11020,Head Concussion w/Motor Loss
+11030,Head Concussion w/S&M Loss
+11100,Head Concussion 1 Deg
+11110,Head Concussion 1 Deg w/Sensory Loss
+11120,Head Concussion 1 Deg w/Motor Loss
+11130,Head Concussion 1 Deg w/S&M Loss
+11200,Head Concussion 2 Deg
+11210,Head Concussion 2 Deg w/Sensory Loss
+11220,Head Concussion 2 Deg w/Motor Loss
+11230,Head Concussion 2 Deg w/S&M Loss
+11300,Head Concussion 3 Deg
+11310,Head Concussion 3 Deg w/Sensory Loss
+11320,Head Concussion 3 Deg w/Motor Loss
+11330,Head Concussion 3 Deg w/S&M Loss
+11400,Head Concussion Sequela
+11401,Head Concussion Sequela 1 Deg
+11402,Head Concussion Sequela 2 Deg
+11403,Head Concussion Sequela 3 Deg

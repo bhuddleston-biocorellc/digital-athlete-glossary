@@ -1,0 +1,51 @@
+ci_code,ci_description
+364020,Hip Adductor Strain
+364120,Hip Adductor Strain 1 Deg
+364220,Hip Adductor Strain 2 Deg
+364310,Hip Abductor Strain 3 Deg
+364320,Hip Adductor Strain 3 Deg
+374015,Groin Adductor Avulsion/Rupture/Complete Tear - Proximal
+374020,Groin Adductor Strain - Proximal
+374021,Groin Gracilis Strain - Proximal
+374022,Groin Adductor Magnus Strain - Proximal
+374023,Groin Adductor Longus Strain - Proximal
+374024,Groin Adductor Brevis Strain - Proximal
+374025,Groin Pectineus Strain
+374120,Groin Adductor Strain/Proximal 1 Deg
+374121,Groin Gracilis Strain/Proximal 1 Deg
+374122,Groin Adductor Magnus/Proximal 1 Deg
+374123,Groin Adductor Longus/Proximal 1 Deg
+374124,Groin Adductor Brevis/Proximal 1 Deg
+374220,Groin Adductor Strain/Proximal 2 Deg
+374221,Groin Gracilis Strain/Proximal 2 Deg
+374222,Groin Adductor Magnus/Proximal 2 Deg
+374223,Groin Adductor Longus/Proximal 2 Deg
+374224,Groin Adductor Brevis/Proximal 2 Deg
+374320,Groin Adductor Strain/Proximal 3 Deg
+374321,Groin Gracilis Strain/Proximal 3 Deg
+374322,Groin Adductor Magnus/Proximal 3 Deg
+374323,Groin Adductor Longus/Proximal 3 Deg
+374324,Groin Adductor Brevis/Proximal 3 Deg
+380024,Thigh Gracilis Strain - Central
+384020,Thigh Adductor Strain - Central
+384021,Thigh Adductor Longus Strain - Central
+384022,Thigh Adductor Brevis Strain - Central
+384023,Thigh Adductor Magnus Strain - Central
+384120,Thigh Adductor Strain/Belly 1 Deg
+384121,Thigh Adductor Longus Strain/Belly 1 Deg
+384122,Thigh Adductor Brevis Strain/Belly 1 Deg
+384123,Thigh Adductor Magnus Strain/Belly 1 Deg
+384220,Thigh Adductor Strain/Belly 2 Deg
+384221,Thigh Adductor Longus Strain/Belly 2 Deg
+384222,Thigh Adductor Brevis Strain/Belly 2 Deg
+384223,Thigh Adductor Magnus Strain/Belly 2 Deg
+384320,Thigh Adductor Strain/Belly 3 Deg
+384321,Thigh Adductor Longus Strain/Belly 3 Deg
+384322,Thigh Adductor Brevis Strain/Belly 3 Deg
+384323,Thigh Adductor Magnus Strain/Belly 3 Deg
+404020,Knee Adductor Strain - Distal
+404021,Knee Gracilis Strain - Distal
+404120,Knee Adductor Strain/Distal 1 Deg
+404220,Knee Adductor Strain/Distal 2 Deg
+404320,Knee Adductor Strain/Distal 3 Deg
+404420,Knee Adductor Avulsion/Rupture/Complete Tear - Distal
