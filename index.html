@@ -254,8 +254,24 @@
             'description': 'High speed for player in miles per hour',
           },
           {
-            id: 'Missed Time Injury',
+            id: 'Missed Time CI Codes',
+            'description': '',
+          },
+          {
+            id: 'Missed Time/Time Loss Injury: 2015-2024',
             'description': 'An injury that has at least one injury status of \'Out\' or \'Limited\' within the \'Availability History\' section of the Injury in the EMR.',
+          },
+          {
+            id: 'Missed Game Injury: 2021-2024',
+            'description': 'An injury where for at least one game, the player did not participate and either 1) the injury is linked to a participation level of \“Out\” in the Activity Calendar and/or 2) the player is on IR/PUP during a window of time while out due to the injury, as entered via injury statuses (Kitman iP) or Missed Time Grid (eCW) of the EMR. Games where a player is on the practice squad are not flagged as missed due to injury. This metric considers all games (preseason, regular season, and postseason) and is only calculated for injuries from 2021-present.',
+          },
+          {
+            id: 'Missed Practice Injury: 2024',
+            'description': 'An injury where for any practice in the Activity Calendar, 1) the injury is linked to a participation level of \“Out\” or 2) the player is on IR/PUP during a window of time while out due to the injury, as entered via injury statuses (Kitman iP) of the EMR. This metric considers practices from all seasons and is only calculated for injuries from 2024-present.',
+          },
+          {
+            id: 'Missed Session Injury: 2024',
+            'description': 'An injury that qualifies as a Missed Game Injury OR a Missed Practice Injury.',
           },
           {
             id: 'Neck CI Codes',
@@ -1315,6 +1331,32 @@
                 </tr>
                 </thead>
                 <tbody class="bg-white divide-y divide-gray-300" id="lex-strain-ci-codes">
+                </tbody>
+              </table>
+            </div>
+          </template>
+
+          <template x-if="open && item.id === 'Missed Time CI Codes'">
+            <div class="overflow-x-auto bg-slate-300 px-4 py-4">
+              <script>
+                Papa.parse( "/ci-codes/missed_time.csv", {
+                  download: true,
+                  header: true,
+                  complete: function ( results ) {
+                    const dataRows = results.data;
+                    document.getElementById( 'missed-time-ci-codes' ).innerHTML = renderCiCodeHtml( dataRows );
+                  }
+                } );
+              </script>
+              <p class="my-3">Below is a list of CI Codes that are included in the calculation of Missed Time injuries in the NFL Digital Athlete.</p>
+              <table class="min-w-full divide-y divide-gray-300 ci-code-table mb-4">
+                <thead class="bg-slate-300">
+                <tr>
+                  <th scope="col" class="px-3 py-3.5 text-left text-sm font-semibold text-gray-900">CI Code</th>
+                  <th scope="col" class="px-3 py-3.5 text-left text-sm font-semibold text-gray-900" colspan="2">CI Description</th>
+                </tr>
+                </thead>
+                <tbody class="bg-white divide-y divide-gray-300" id="missed-time-ci-codes">
                 </tbody>
               </table>
             </div>
