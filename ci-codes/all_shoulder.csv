@@ -65,13 +65,13 @@ ci_code,ci_description
 103300,Shoulder Sprain 3 Deg (non-specific)
 103310,Shoulder Anterior Capsule Sprain 3 Deg
 103320,Shoulder Posterior Capsule Sprain 3 Deg
-103400,Shoulder G-H Subluxation/Acute
+103400,Shoulder Glenohumeral Joint (GHJ) Subluxation - Acute
 103410,Shoulder G-H Anterior Subluxation/Acute
 103420,Shoulder G-H Posterior Subluxation/Acute
 103430,Shoulder G-H Inferior Subluxation/Acute
 103440,Shoulder G-H Subluxation/Anterior-Inferior/Acute
 103450,Shoulder G-H Subluxation/Posterior-Inferior/Acute
-103500,Shoulder G-H Subluxation/Recurrent
+103500,Shoulder Glenohumeral Joint (GHJ) Subluxation - Recurrent
 103510,Shoulder G-H Anterior Subluxation/Recurrent
 103520,Shoulder G-H Posterior Subluxation/Recurrent
 103530,Shoulder G-H Inferior Subluxation/Recurrent
@@ -80,13 +80,13 @@ ci_code,ci_description
 103560,Shoulder Biceps Tendon Subluxation/Recurrent
 103561,Shoulder Long Biceps Tendon Subluxation/Recurrent
 103562,Shoulder Short Biceps Tendon Subluxation/Recurrent
-103600,Shoulder G-H Dislocation/Acute
+103600,Shoulder Glenohumeral Joint (GHJ) Dislocation - Acute
 103610,Shoulder G-H Anterior Dislocation/Acute
 103620,Shoulder G-H Posterior Dislocation/Acute
 103630,Shoulder G-H Inferior Dislocation/Acute
 103640,Shoulder G-H Dislocation/Anterior-Inferior/Acute
 103650,Shoulder G-H Dislocation/Posterior-Inferior/Acute
-103700,Shoulder G-H Dislocation/Recurrent
+103700,Shoulder Glenohumeral Joint (GHJ) Dislocation - Recurrent
 103710,Shoulder G-H Anterior Dislocation/Recurrent
 103720,Shoulder G-H Posterior Dislocation/Recurrent
 103730,Shoulder G-H Dislocation/Inferior/Recurrent
@@ -99,6 +99,7 @@ ci_code,ci_description
 104012,Shoulder Infraspinatus Strain
 104013,Shoulder Teres Minor Strain
 104014,Shoulder Subscapularis Strain
+104015,Shoulder Deltoid Strain
 104020,Shoulder Deltoid Strain/Anterior
 104030,Shoulder Deltoid Strain/Middle
 104040,Shoulder Deltoid Strain/Posterior
@@ -141,14 +142,21 @@ ci_code,ci_description
 104312,Shoulder Infraspinatus Strain 3 Deg
 104313,Shoulder Teres Minor Strain 3 Deg
 104314,Shoulder Subscapularis Strain 3 Deg (Complete Tear)
-104320,Shoulder Deltoid Strain 3 Deg (Complete Tear)
+104315,Shoulder Supraspinatus Avulsion/Rupture/Complete Tear
+104316,Shoulder Infraspinatus Avulsion/Rupture/Complete Tear
+104317,Shoulder Teres Minor Avulsion/Rupture/Complete Tear
+104318,Shoulder Subscapularis Avulsion/Rupture/Complete Tear
+104319,Shoulder Rotator Cuff Avulsion/Rupture/Complete Tear
+104320,Shoulder Deltoid Avulsion/Rupture/Complete Tear
 104330,Shoulder Middle Deltoid Strain 3 Deg
 104340,Shoulder Posterior Deltoid Strain 3 Deg
 104350,Shoulder Proximal Triceps Strain 3 Deg (Complete Tear)
+104351,Shoulder Triceps Avulsion/Rupture/Complete Tear
 104360,Shoulder Proximal Biceps Strain 3 Deg (Complete Tear)
-104370,Shoulder Serratus Anterior Strain 3 Deg (Complete Tear)
-104380,Shoulder Trapezius Strain 3 Deg (Complete Tear)
-104390,Shoulder Teres Major Strain 3 Deg (Complete Tear)
+104361,Shoulder Biceps Avulsion/Rupture/Complete Tear
+104370,Shoulder Serratus Anterior Avulsion/Rupture/Complete Tear
+104380,Shoulder Trapezius Avulsion/Rupture/Complete Tear
+104390,Shoulder Teres Major Avulsion/Rupture/Complete Tear
 104400,Shoulder Muscle Avulsion
 104410,Shoulder Rotator Cuff Avulsion
 104411,Shoulder Supraspinatus Tendon Avulsion
@@ -206,6 +214,7 @@ ci_code,ci_description
 106470,Shoulder Impingement
 106471,Shoulder Exertion Thrombosis
 106480,Shoulder Musculoskeletal Weakness
+106500,Shoulder Glenoid Labrum Tear
 106501,Shoulder Glenoid Labrum Tear/Anterior
 106502,Shoulder Glenoid Labrum Tear/Posterior
 106503,Shoulder Glenoid Labrum Tear/Superior
@@ -215,20 +224,17 @@ ci_code,ci_description
 106507,Shoulder Labral Tear (non-specific)
 108210,Shoulder Congenital Defect
 108211,Shoulder Os Acromiale
-108600,Shoulder Infection
 108601,Shoulder Staph Infection - MRSA
 108602,Shoulder Staph Infection - MSSA
-108603,Shoulder Joint Staph Infection - MRSA
-108604,Shoulder Joint Staph Infection - MSSA
-108605,Shoulder External Skin Staph Infection - MRSA
-108606,Shoulder External Skin Staph Infection - MSSA
-108800,Shoulder Non Disease/Atypical Condition
-108900,Shoulder Benign Tumor
 109600,Shoulder G-H Disarticulation
 109700,Shoulder Burn 1 Deg
 109701,Shoulder Burn 2 Deg
 109702,Shoulder Burn 3 Deg
 109703,Shoulder Friction Blister
+110210,Shoulder Acromioclavicular Joint (ACJ) Contusion
+113000,Shoulder Acromioclavicular Joint (ACJ) Sprain/Separation
+116100,Shoulder Acromioclavicular Joint (ACJ) Inflammation
+116230,Shoulder Acromioclavicular Joint (ACJ) Arthritis
 134040,Arm Latissimus Dorsi Strain/Tendon (Insertional)
 134061,Arm Proximal Biceps Strain - Tendon (Insertional)
 134460,Arm Proximal Biceps Tendon Insertional Rupture
